@@ -1,0 +1,1866 @@
+[
+    {
+        "id": "6652845106fe830b",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a1d3ed4126e03d53",
+        "type": "ibmiot out",
+        "z": "6652845106fe830b",
+        "authentication": "boundService",
+        "apiKey": "694209acc859fc55",
+        "outputType": "cmd",
+        "deviceId": "7c9ebd3b5680",
+        "deviceType": "mkr1010",
+        "eventCommandType": "display",
+        "format": "json",
+        "data": "msg.payload",
+        "qos": "0",
+        "name": "IBM IoT",
+        "service": "registered",
+        "x": 960,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "479b4d536a37c6f2",
+        "type": "switch",
+        "z": "6652845106fe830b",
+        "name": "fall down",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 460,
+        "y": 220,
+        "wires": [
+            [
+                "1c9685fc69f2dfb8",
+                "db106baec9125f4e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "db106baec9125f4e",
+        "type": "template",
+        "z": "6652845106fe830b",
+        "name": "Alert Msg",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Alert : may falls down in bathroom",
+        "output": "str",
+        "x": 680,
+        "y": 200,
+        "wires": [
+            [
+                "1b87b61bb304de09"
+            ]
+        ]
+    },
+    {
+        "id": "1b87b61bb304de09",
+        "type": "ui_toast",
+        "z": "6652845106fe830b",
+        "position": "dialog",
+        "displayTime": "2",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 870,
+        "y": 200,
+        "wires": [
+            [
+                "d4292309ee3d17b0"
+            ]
+        ]
+    },
+    {
+        "id": "d4292309ee3d17b0",
+        "type": "switch",
+        "z": "6652845106fe830b",
+        "name": "Warn on High Values",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1040,
+        "y": 260,
+        "wires": [
+            [
+                "a4c8e83fe292efe1"
+            ]
+        ]
+    },
+    {
+        "id": "a4c8e83fe292efe1",
+        "type": "template",
+        "z": "6652845106fe830b",
+        "name": "reset sensor ",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "1",
+        "output": "str",
+        "x": 1170,
+        "y": 180,
+        "wires": [
+            [
+                "52a3f092595310e5"
+            ]
+        ]
+    },
+    {
+        "id": "3a1b1a594d2a6358",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "Humidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.d.humidity_value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 280,
+        "wires": [
+            [
+                "8d10e311165eee5b"
+            ]
+        ]
+    },
+    {
+        "id": "42966105c2275bbb",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "Temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.d.temperature",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 340,
+        "wires": [
+            [
+                "2caeee46daff2c74"
+            ]
+        ]
+    },
+    {
+        "id": "a04ca6511ee9b684",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "Sound",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.d.sound_value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 400,
+        "wires": [
+            [
+                "1c649f4a38ed1ceb"
+            ]
+        ]
+    },
+    {
+        "id": "0dfb0ae85de307ed",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "door state",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.d.door_state",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 460,
+        "wires": [
+            [
+                "a17d2a45f6ab6bf0"
+            ]
+        ]
+    },
+    {
+        "id": "9300f0ad8edb6372",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "buzzer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.d.buzzer_state",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 220,
+        "wires": [
+            [
+                "479b4d536a37c6f2"
+            ]
+        ]
+    },
+    {
+        "id": "52a3f092595310e5",
+        "type": "ibmiot out",
+        "z": "6652845106fe830b",
+        "authentication": "boundService",
+        "apiKey": "694209acc859fc55",
+        "outputType": "cmd",
+        "deviceId": "3c6105166844",
+        "deviceType": "mkr1010",
+        "eventCommandType": "display",
+        "format": "json",
+        "data": "msg.payload",
+        "qos": 0,
+        "name": "IBM IoT",
+        "service": "registered",
+        "x": 1360,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1c9685fc69f2dfb8",
+        "type": "template",
+        "z": "6652845106fe830b",
+        "name": "fall down",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "1",
+        "output": "str",
+        "x": 640,
+        "y": 140,
+        "wires": [
+            [
+                "44afe2c0b7bd6f35"
+            ]
+        ]
+    },
+    {
+        "id": "a8822253bc82ebc1",
+        "type": "ibmiot in",
+        "z": "6652845106fe830b",
+        "authentication": "boundService",
+        "apiKey": "694209acc859fc55",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "3c610515f1ec",
+        "applicationId": "",
+        "deviceType": "mkr1010",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "bathroom",
+        "service": "registered",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": "",
+        "qos": "1",
+        "x": 60,
+        "y": 260,
+        "wires": [
+            [
+                "9300f0ad8edb6372",
+                "3a1b1a594d2a6358",
+                "42966105c2275bbb",
+                "a04ca6511ee9b684",
+                "0dfb0ae85de307ed",
+                "778c97014060340a",
+                "951c14430f354c7f",
+                "109cb8f258730fce"
+            ]
+        ]
+    },
+    {
+        "id": "a17d2a45f6ab6bf0",
+        "type": "switch",
+        "z": "6652845106fe830b",
+        "name": "door open or close",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "neq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 460,
+        "wires": [
+            [
+                "79ee7487197eaa80"
+            ],
+            [
+                "a9bd834ee808fdab"
+            ]
+        ]
+    },
+    {
+        "id": "79ee7487197eaa80",
+        "type": "template",
+        "z": "6652845106fe830b",
+        "name": "close",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "close",
+        "output": "str",
+        "x": 710,
+        "y": 440,
+        "wires": [
+            [
+                "c9f366a4de63c3d3"
+            ]
+        ]
+    },
+    {
+        "id": "a9bd834ee808fdab",
+        "type": "template",
+        "z": "6652845106fe830b",
+        "name": "open",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "open",
+        "output": "str",
+        "x": 710,
+        "y": 500,
+        "wires": [
+            [
+                "c9f366a4de63c3d3"
+            ]
+        ]
+    },
+    {
+        "id": "8d10e311165eee5b",
+        "type": "ui_chart",
+        "z": "6652845106fe830b",
+        "name": "",
+        "group": "35c98d307392aaeb",
+        "order": 2,
+        "width": "5",
+        "height": "5",
+        "label": "Humidity",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 480,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2caeee46daff2c74",
+        "type": "ui_chart",
+        "z": "6652845106fe830b",
+        "name": "",
+        "group": "35c98d307392aaeb",
+        "order": 3,
+        "width": "6",
+        "height": "5",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff7f0e",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 510,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c649f4a38ed1ceb",
+        "type": "ui_chart",
+        "z": "6652845106fe830b",
+        "name": "",
+        "group": "35c98d307392aaeb",
+        "order": 4,
+        "width": "6",
+        "height": "5",
+        "label": "Sound",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 490,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "207f30b71f82a3c6",
+        "type": "inject",
+        "z": "6652845106fe830b",
+        "name": "reset",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 12 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":0,\"wait_time\":2}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 1180,
+        "wires": [
+            [
+                "cdaf2ab72622fab8",
+                "fc5f13b7b1e57a67"
+            ]
+        ]
+    },
+    {
+        "id": "e54830d91c6d28f4",
+        "type": "ibmiot in",
+        "z": "6652845106fe830b",
+        "authentication": "boundService",
+        "apiKey": "fda44c53ff647971",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "3c610516400c",
+        "applicationId": "",
+        "deviceType": "mkr1010",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "medicine",
+        "service": "registered",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": "",
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": true,
+        "qos": "1",
+        "x": 50,
+        "y": 720,
+        "wires": [
+            [
+                "f12e853e1e2534ce",
+                "ba7c17c21bd153a4",
+                "d9aaefa537bb1764",
+                "6d210c56237ca958",
+                "71366117245f7362"
+            ]
+        ]
+    },
+    {
+        "id": "f12e853e1e2534ce",
+        "type": "debug",
+        "z": "6652845106fe830b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 230,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "ba7c17c21bd153a4",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "touch_value",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.d.touch_value",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 230,
+        "y": 760,
+        "wires": [
+            [
+                "b22ba689bb524044"
+            ]
+        ]
+    },
+    {
+        "id": "d9aaefa537bb1764",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "button_value",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.d.button_value",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 230,
+        "y": 820,
+        "wires": [
+            [
+                "53ef76609f424965"
+            ]
+        ]
+    },
+    {
+        "id": "fc5f13b7b1e57a67",
+        "type": "debug",
+        "z": "6652845106fe830b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "cdaf2ab72622fab8",
+        "type": "ibmiot out",
+        "z": "6652845106fe830b",
+        "authentication": "boundService",
+        "apiKey": "fda44c53ff647971",
+        "outputType": "cmd",
+        "deviceId": "3c610516400c",
+        "deviceType": "mkr1010",
+        "eventCommandType": "display",
+        "format": "json",
+        "data": "msg.payload",
+        "qos": "0",
+        "name": "IBM IoT",
+        "service": "registered",
+        "x": 540,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "b22ba689bb524044",
+        "type": "ui_text",
+        "z": "6652845106fe830b",
+        "group": "b7c9850f70e3c3dd",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "name": "",
+        "label": "Touch State",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 490,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "53ef76609f424965",
+        "type": "ui_text",
+        "z": "6652845106fe830b",
+        "group": "b7c9850f70e3c3dd",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "name": "",
+        "label": "Button State",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 490,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "6d210c56237ca958",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "bottle_state",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.d.bottle_state",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 230,
+        "y": 880,
+        "wires": [
+            [
+                "66c1ee322c3c3670"
+            ]
+        ]
+    },
+    {
+        "id": "66c1ee322c3c3670",
+        "type": "switch",
+        "z": "6652845106fe830b",
+        "name": "determine_bottle_state",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "5",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "6",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "7",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 450,
+        "y": 940,
+        "wires": [
+            [
+                "b396e41f1edfbfef"
+            ],
+            [
+                "d07923b7ed964b30"
+            ],
+            [
+                "c941f71495347e31"
+            ],
+            [
+                "f7fda520f94ef8d8"
+            ],
+            [
+                "5edb68b80b01bf8e"
+            ],
+            [
+                "1fc9273d997faea0"
+            ]
+        ]
+    },
+    {
+        "id": "b396e41f1edfbfef",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "normal",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "normal condition",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 880,
+        "wires": [
+            [
+                "d85c5f160c8cf9c4"
+            ]
+        ]
+    },
+    {
+        "id": "d07923b7ed964b30",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "bottle taken",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "the bottle has been taken up at least once",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 920,
+        "wires": [
+            [
+                "d85c5f160c8cf9c4"
+            ]
+        ]
+    },
+    {
+        "id": "c941f71495347e31",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "bottle returned",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "the bottle has been returned after taken",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 960,
+        "wires": [
+            [
+                "d85c5f160c8cf9c4"
+            ]
+        ]
+    },
+    {
+        "id": "f7fda520f94ef8d8",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "forget putting back",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "forgot to put the medicine bottle back to its position",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 1000,
+        "wires": [
+            [
+                "d85c5f160c8cf9c4"
+            ]
+        ]
+    },
+    {
+        "id": "5edb68b80b01bf8e",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "medicine taken",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "medicine has been taken",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1040,
+        "wires": [
+            [
+                "d85c5f160c8cf9c4"
+            ]
+        ]
+    },
+    {
+        "id": "1fc9273d997faea0",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "forgot take medicine",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "patient forgot to take medicine",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1080,
+        "wires": [
+            [
+                "d85c5f160c8cf9c4"
+            ]
+        ]
+    },
+    {
+        "id": "d85c5f160c8cf9c4",
+        "type": "ui_text",
+        "z": "6652845106fe830b",
+        "group": "b7c9850f70e3c3dd",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "name": "",
+        "label": "Bottle State",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 990,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "c9f366a4de63c3d3",
+        "type": "ui_text",
+        "z": "6652845106fe830b",
+        "group": "35c98d307392aaeb",
+        "order": 1,
+        "width": "6",
+        "height": "2",
+        "name": "",
+        "label": "Door state:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 870,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "09cacbd3be6611d0",
+        "type": "ui_slider",
+        "z": "6652845106fe830b",
+        "name": "",
+        "label": "madcine time",
+        "tooltip": "",
+        "group": "3931bb90c27f27b5",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "60",
+        "step": 1,
+        "className": "",
+        "x": 260,
+        "y": 1100,
+        "wires": [
+            [
+                "7ed809f42537aee5"
+            ]
+        ]
+    },
+    {
+        "id": "44afe2c0b7bd6f35",
+        "type": "function",
+        "z": "6652845106fe830b",
+        "name": "",
+        "func": "var msg1 = {\"payload\":1}\nif(msg.payload == '1'){\n    return msg1;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 140,
+        "wires": [
+            [
+                "a1d3ed4126e03d53"
+            ]
+        ]
+    },
+    {
+        "id": "08713e8eee17be26",
+        "type": "debug",
+        "z": "6652845106fe830b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "7ed809f42537aee5",
+        "type": "function",
+        "z": "6652845106fe830b",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 1080,
+        "wires": [
+            [
+                "08713e8eee17be26",
+                "cdaf2ab72622fab8"
+            ]
+        ]
+    },
+    {
+        "id": "29a9b782cb0bf0bb",
+        "type": "ibmiot in",
+        "z": "6652845106fe830b",
+        "authentication": "boundService",
+        "apiKey": "597e8e79ee79a8f3",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "7c9ebd3b5a34",
+        "applicationId": "",
+        "deviceType": "+",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "fall_down_stairs",
+        "service": "registered",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": "",
+        "qos": 0,
+        "x": 80,
+        "y": 1460,
+        "wires": [
+            [
+                "e674a8e49bc7e7e5",
+                "7f31211aa55d4e9e",
+                "42b5b5d81f7a828d"
+            ]
+        ]
+    },
+    {
+        "id": "e674a8e49bc7e7e5",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "fall_down_alarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.d.alarm_counter",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 1500,
+        "wires": [
+            [
+                "5d0d4811cee29b8f"
+            ]
+        ]
+    },
+    {
+        "id": "7f31211aa55d4e9e",
+        "type": "debug",
+        "z": "6652845106fe830b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "4d2fc22f1c5f1fb6",
+        "type": "ui_text",
+        "z": "6652845106fe830b",
+        "group": "27896825f9661bc6",
+        "order": 1,
+        "width": "6",
+        "height": "4",
+        "name": "",
+        "label": "stair alarm state:",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 650,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "5d0d4811cee29b8f",
+        "type": "switch",
+        "z": "6652845106fe830b",
+        "name": "fall_down_at_stairs",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 1440,
+        "wires": [
+            [
+                "4423fe108b7a1953",
+                "7f6b2c15f9e4a2b3",
+                "fbf5c6663553c12d",
+                "45ed3787b3882c6d"
+            ],
+            [
+                "444a8bf6ae98ded9"
+            ]
+        ]
+    },
+    {
+        "id": "4423fe108b7a1953",
+        "type": "template",
+        "z": "6652845106fe830b",
+        "name": "Alert Msg",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Alert: may fall down at stairs",
+        "output": "str",
+        "x": 640,
+        "y": 1420,
+        "wires": [
+            [
+                "bcf377f20049a8f6"
+            ]
+        ]
+    },
+    {
+        "id": "bcf377f20049a8f6",
+        "type": "ui_toast",
+        "z": "6652845106fe830b",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 790,
+        "y": 1420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8cf2df7e034e8eb5",
+        "type": "ibmiot out",
+        "z": "6652845106fe830b",
+        "authentication": "boundService",
+        "apiKey": "597e8e79ee79a8f3",
+        "outputType": "cmd",
+        "deviceId": "7c9ebd3b5680",
+        "deviceType": "mkr1010",
+        "eventCommandType": "display",
+        "format": "json",
+        "data": "msg.payload",
+        "qos": 0,
+        "name": "roommate device",
+        "service": "registered",
+        "x": 770,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "7f6b2c15f9e4a2b3",
+        "type": "debug",
+        "z": "6652845106fe830b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "fbf5c6663553c12d",
+        "type": "function",
+        "z": "6652845106fe830b",
+        "name": "",
+        "func": "var msg1 = {\"payload\":1}\nif(msg.payload == '1'){\n    return msg1;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 1540,
+        "wires": [
+            [
+                "8cf2df7e034e8eb5"
+            ]
+        ]
+    },
+    {
+        "id": "778c97014060340a",
+        "type": "cloudant out",
+        "z": "6652845106fe830b",
+        "name": "",
+        "cloudant": "",
+        "database": "bathroom",
+        "service": "node-red-fhxuk-2022--cloudant-1642677408879-71624",
+        "payonly": false,
+        "operation": "insert",
+        "x": 190,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "71366117245f7362",
+        "type": "cloudant out",
+        "z": "6652845106fe830b",
+        "name": "",
+        "cloudant": "",
+        "database": "medicine",
+        "service": "node-red-fhxuk-2022--cloudant-1642677408879-71624",
+        "payonly": false,
+        "operation": "insert",
+        "x": 240,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "42b5b5d81f7a828d",
+        "type": "cloudant out",
+        "z": "6652845106fe830b",
+        "name": "",
+        "cloudant": "",
+        "database": "stair",
+        "service": "node-red-fhxuk-2022--cloudant-1642677408879-71624",
+        "payonly": false,
+        "operation": "insert",
+        "x": 230,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "45ed3787b3882c6d",
+        "type": "template",
+        "z": "6652845106fe830b",
+        "name": "alarm on",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "on",
+        "output": "str",
+        "x": 400,
+        "y": 1600,
+        "wires": [
+            [
+                "4d2fc22f1c5f1fb6"
+            ]
+        ]
+    },
+    {
+        "id": "444a8bf6ae98ded9",
+        "type": "template",
+        "z": "6652845106fe830b",
+        "name": "alarm off",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "off",
+        "output": "str",
+        "x": 360,
+        "y": 1680,
+        "wires": [
+            [
+                "4d2fc22f1c5f1fb6"
+            ]
+        ]
+    },
+    {
+        "id": "0ec91a662d69ea2f",
+        "type": "ui_button",
+        "z": "6652845106fe830b",
+        "name": "",
+        "group": "27896825f9661bc6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clear door state",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c0cf42e0e50b021",
+        "type": "ibmiot out",
+        "z": "6652845106fe830b",
+        "authentication": "boundService",
+        "apiKey": "694209acc859fc55",
+        "outputType": "cmd",
+        "deviceId": "7c9ebd3b5680",
+        "deviceType": "mkr1010",
+        "eventCommandType": "display",
+        "format": "json",
+        "data": "msg.payload",
+        "qos": 0,
+        "name": "IBM IoT",
+        "service": "registered",
+        "x": 1020,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "951c14430f354c7f",
+        "type": "function",
+        "z": "6652845106fe830b",
+        "name": "",
+        "func": "var temp_dta = msg.payload.d.temperature;\nvar door = msg.payload.d.door_state;\nvar sound = msg.payload.d.sound_value;\nvar buzzer = msg.payload.d.buzzer_state;\nvar humidity = msg.payload.d.humidity_value;\n\nvar msg1 = {};\nmsg1.payload = \n{\n    TIMESTAMP : 'TIMESTAMP',\n    BUZZER_STATUS : buzzer,\n    DOOR_STATE : door,\n    SOUND_VALUE: sound,\n    TEMP : temp_dta,\n    HUMID : humidity\n    \n}\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 90,
+        "y": 420,
+        "wires": [
+            [
+                "32225b2de3c6450f"
+            ]
+        ]
+    },
+    {
+        "id": "32225b2de3c6450f",
+        "type": "Db2 out",
+        "z": "6652845106fe830b",
+        "Db2": "29ae381c6172cb39",
+        "service": "_ext_",
+        "table": "BATHROOM_DATA",
+        "name": "",
+        "x": 480,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "109cb8f258730fce",
+        "type": "debug",
+        "z": "6652845106fe830b",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c7c54c12de881ebb",
+        "type": "ibmiot in",
+        "z": "6652845106fe830b",
+        "authentication": "boundService",
+        "apiKey": "fda44c53ff647971",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "3c6105166844",
+        "applicationId": "",
+        "deviceType": "mkr1010",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "IBM IoT",
+        "service": "registered",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": "",
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": true,
+        "allFormats": true,
+        "qos": "0",
+        "x": 110,
+        "y": 1960,
+        "wires": [
+            [
+                "2f38297bf19cc6b0"
+            ]
+        ]
+    },
+    {
+        "id": "afe771aab3de7026",
+        "type": "switch",
+        "z": "6652845106fe830b",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 2000,
+        "wires": [
+            [
+                "a208397350f4ada8",
+                "6d1899749ee9e612"
+            ],
+            [
+                "dd8e6706592a487e",
+                "31f47d2dbbbf9b9c"
+            ]
+        ]
+    },
+    {
+        "id": "6d1899749ee9e612",
+        "type": "trigger",
+        "z": "6652845106fe830b",
+        "name": "",
+        "op1": "0",
+        "op2": "1",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "hr",
+        "reset": "reset",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 820,
+        "y": 1880,
+        "wires": [
+            [
+                "5c0cf42e0e50b021"
+            ]
+        ]
+    },
+    {
+        "id": "b9fffe16cc42e5a8",
+        "type": "ui_text",
+        "z": "6652845106fe830b",
+        "group": "27896825f9661bc6",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "door state",
+        "label": "door state",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 980,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "acdb3f2e051cca71",
+        "type": "cloudant out",
+        "z": "6652845106fe830b",
+        "d": true,
+        "name": "temp",
+        "cloudant": "",
+        "database": "iottemp",
+        "service": "node-red-gfy-2022-01-cloudant-1642677105765-20913",
+        "payonly": false,
+        "operation": "insert",
+        "x": 490,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "2f38297bf19cc6b0",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "door_state",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.d.patient_detection_state",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 2020,
+        "wires": [
+            [
+                "afe771aab3de7026",
+                "acdb3f2e051cca71"
+            ]
+        ]
+    },
+    {
+        "id": "a208397350f4ada8",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "patient out",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "patient goes out",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 1960,
+        "wires": [
+            [
+                "b9fffe16cc42e5a8"
+            ]
+        ]
+    },
+    {
+        "id": "dd8e6706592a487e",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "patient in",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "patient comes in",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 2020,
+        "wires": [
+            [
+                "b9fffe16cc42e5a8"
+            ]
+        ]
+    },
+    {
+        "id": "31f47d2dbbbf9b9c",
+        "type": "change",
+        "z": "6652845106fe830b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "reset",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 2120,
+        "wires": [
+            [
+                "6d1899749ee9e612"
+            ]
+        ]
+    },
+    {
+        "id": "694209acc859fc55",
+        "type": "ibmiot",
+        "name": "api-mkr1010-ihw",
+        "keepalive": "60",
+        "serverName": "zpbhjh.messaging.internetofthings.ibmcloud.com",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    },
+    {
+        "id": "35c98d307392aaeb",
+        "type": "ui_group",
+        "name": "Bathroom",
+        "tab": "99590092ad8ce56b",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fda44c53ff647971",
+        "type": "ibmiot",
+        "name": "Instructor IOTF API Details",
+        "keepalive": "60",
+        "serverName": "39yuiy.messaging.internetofthings.ibmcloud.com",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    },
+    {
+        "id": "b7c9850f70e3c3dd",
+        "type": "ui_group",
+        "name": "Medicine",
+        "tab": "99590092ad8ce56b",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3931bb90c27f27b5",
+        "type": "ui_group",
+        "name": "Bottle State",
+        "tab": "710b28ed33a350ec",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "597e8e79ee79a8f3",
+        "type": "ibmiot",
+        "name": "Instructor IOTF API details",
+        "keepalive": "60",
+        "serverName": "39yuiy.messaging.internetofthings.ibmcloud.com",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    },
+    {
+        "id": "27896825f9661bc6",
+        "type": "ui_group",
+        "name": "Stairs and Lost",
+        "tab": "99590092ad8ce56b",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "29ae381c6172cb39",
+        "type": "Db2",
+        "hostname": "815fa4db-dc03-4c70-869a-a9cc13f33084.bs2io90l08kqb1od8lcg.databases.appdomain.cloud",
+        "db": "bludb",
+        "port": "30367",
+        "name": "test"
+    },
+    {
+        "id": "99590092ad8ce56b",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "710b28ed33a350ec",
+        "type": "ui_tab",
+        "name": "Medicine",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

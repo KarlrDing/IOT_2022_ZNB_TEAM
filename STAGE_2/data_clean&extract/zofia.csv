@@ -1,0 +1,1027 @@
+,date,time,type,state,location,BE,duration
+0,02/02/2009,07:15:17,M35,ON,R1_Bed_to_Toilet,begin,0 days 00:05:47
+1,02/02/2009,07:21:04,M41,OFF,R1_Bed_to_Toilet,end,
+2,02/02/2009,07:21:04,M40,OFF,R1_Personal_Hygiene,begin,0 days 00:17:30
+3,02/02/2009,07:38:34,M36,ON,R1_Personal_Hygiene,end,
+4,02/02/2009,07:44:13,M49,ON,R2_Bed_to_Toilet,begin,0 days 00:02:42
+5,02/02/2009,07:46:55,M48,OFF,R2_Bed_to_Toilet,end,
+6,02/02/2009,07:47:19,M19,ON,Meal_Preparation,begin,0 days 00:08:05
+7,02/02/2009,07:55:24,M16,OFF,Meal_Preparation,end,
+8,02/02/2009,10:19:50,M19,ON,Meal_Preparation,begin,0 days 00:22:02
+9,02/02/2009,10:41:52,M09,ON,Meal_Preparation,end,
+10,02/02/2009,10:51:07,M46,ON,R2_Personal_Hygiene,begin,0 days 00:26:00
+11,02/02/2009,11:17:07,M49,OFF,R2_Personal_Hygiene,end,
+12,02/02/2009,11:41:34,M07,ON,Watch_TV,begin,0 days 00:49:28
+13,02/02/2009,12:31:02,M23,ON,Watch_TV,end,
+14,02/02/2009,14:29:03,M32,ON,R1_Work,begin,0 days 00:54:20
+15,02/02/2009,15:23:23,M48,ON,R2_Work,begin,0 days 02:13:22
+16,02/02/2009,17:36:45,M45,OFF,R2_Work,end,
+17,02/02/2009,17:37:22,M31,OFF,R1_Work,end,
+18,02/02/2009,17:47:19,M18,ON,Meal_Preparation,begin,0 days 01:09:37
+19,02/02/2009,18:56:56,AD1-A,2.80215,Meal_Preparation,end,
+20,02/02/2009,19:00:18,M32,OFF,R1_Work,begin,0 days 00:29:49
+21,02/02/2009,19:30:07,M31,OFF,R1_Work,end,
+22,02/02/2009,22:10:55,M36,ON,R1_Sleep,begin,0 days 00:13:24
+23,02/02/2009,22:24:19,M50,OFF,R2_Personal_Hygiene,begin,0 days 00:02:38
+24,02/02/2009,22:26:57,M45,ON,R2_Personal_Hygiene,end,
+25,02/02/2009,22:29:19,M45,OFF,R2_Sleep,begin,0 days 07:28:03
+26,03/02/2009,05:57:22,M35,OFF,R1_Sleep,end,
+27,03/02/2009,06:12:13,M48,ON,R2_Sleep,end,
+28,03/02/2009,06:12:14,M46,ON,R2_Bed_to_Toilet,begin,0 days 00:06:10
+29,03/02/2009,06:18:24,M47,OFF,R2_Bed_to_Toilet,end,
+30,03/02/2009,06:32:54,M48,ON,R2_Personal_Hygiene,begin,0 days 00:35:00
+31,03/02/2009,07:07:54,M44,OFF,R2_Personal_Hygiene,end,
+32,03/02/2009,07:29:34,M35,ON,R1_Bed_to_Toilet,begin,0 days 00:06:14
+33,03/02/2009,07:35:48,M32,OFF,R1_Bed_to_Toilet,end,
+34,03/02/2009,08:06:11,M19,ON,Meal_Preparation,begin,0 days 09:51:26
+35,03/02/2009,17:57:37,M19,OFF,Meal_Preparation,end,
+36,03/02/2009,17:57:47,M30,ON,R1_Work,begin,0 days 00:03:36
+37,03/02/2009,18:01:23,M08,ON,Watch_TV,begin,0 days 01:08:50
+38,03/02/2009,19:10:13,M31,ON,R1_Work,end,
+39,03/02/2009,19:10:23,M07,ON,Watch_TV,end,
+40,03/02/2009,22:25:44,M33,OFF,R1_Sleep,begin,0 days 00:11:51
+41,03/02/2009,22:37:35,M47,OFF,R2_Sleep,begin,0 days 07:18:57
+42,04/02/2009,05:56:32,M35,OFF,R1_Sleep,end,
+43,04/02/2009,06:07:13,M48,OFF,R2_Sleep,end,
+44,04/02/2009,06:12:34,M49,ON,R2_Bed_to_Toilet,begin,0 days 00:04:08
+45,04/02/2009,06:16:42,M48,ON,R2_Bed_to_Toilet,end,
+46,04/02/2009,06:17:30,M48,ON,R2_Personal_Hygiene,begin,0 days 00:34:20
+47,04/02/2009,06:51:50,M49,OFF,R2_Personal_Hygiene,end,
+48,04/02/2009,07:01:27,M19,ON,Meal_Preparation,begin,0 days 00:24:33
+49,04/02/2009,07:26:00,M33,OFF,R1_Bed_to_Toilet,begin,0 days 00:14:03
+50,04/02/2009,07:40:03,M36,ON,R1_Bed_to_Toilet,end,
+51,04/02/2009,07:40:06,M35,ON,R1_Personal_Hygiene,begin,0 days 00:00:00
+52,04/02/2009,07:40:06,M19,ON,Meal_Preparation,end,
+53,04/02/2009,07:46:36,M35,ON,R1_Personal_Hygiene,end,
+54,04/02/2009,07:53:28,M17,ON,Meal_Preparation,begin,0 days 00:20:38
+55,04/02/2009,08:14:06,M18,OFF,Meal_Preparation,end,
+56,04/02/2009,10:31:49,M19,ON,Meal_Preparation,begin,0 days 00:13:19
+57,04/02/2009,10:45:08,M19,OFF,Meal_Preparation,end,
+58,04/02/2009,10:52:26,M16,ON,Meal_Preparation,begin,0 days 01:06:25
+59,04/02/2009,11:58:51,AD1-A,2.8195,Meal_Preparation,end,
+60,04/02/2009,17:15:29,M08,ON,Watch_TV,begin,0 days 02:18:53
+61,04/02/2009,19:34:22,M09,ON,Watch_TV,end,
+62,04/02/2009,19:41:46,M48,ON,Wash_Bathtub,begin,0 days 00:33:05
+63,04/02/2009,20:14:51,M43,OFF,Wash_Bathtub,end,
+64,04/02/2009,20:17:58,M50,ON,R2_Work,begin,0 days 00:47:40
+65,04/02/2009,21:05:38,M30,ON,R1_Work,begin,0 days 00:20:22
+66,04/02/2009,21:26:00,M45,ON,R2_Work,end,
+67,04/02/2009,21:49:01,M44,OFF,R2_Sleep,begin,0 days 00:59:18
+68,04/02/2009,22:48:19,M31,OFF,R1_Work,end,
+69,04/02/2009,22:55:00,M30,ON,R1_Sleep,begin,0 days 07:44:21
+70,05/02/2009,06:39:21,M48,OFF,R2_Sleep,end,
+71,05/02/2009,06:51:02,M35,ON,R1_Sleep,end,
+72,05/02/2009,06:51:44,M33,ON,R1_Bed_to_Toilet,begin,0 days 00:21:02
+73,05/02/2009,07:12:46,M33,ON,R1_Bed_to_Toilet,end,
+74,05/02/2009,07:23:49,M19,ON,Meal_Preparation,begin,0 days 00:00:52
+75,05/02/2009,07:24:41,M21,OFF,Meal_Preparation,end,
+76,05/02/2009,08:01:12,M49,ON,R2_Bed_to_Toilet,begin,0 days 00:02:33
+77,05/02/2009,08:03:45,M48,OFF,R2_Bed_to_Toilet,end,
+78,05/02/2009,08:05:21,M17,ON,Meal_Preparation,begin,0 days 00:07:38
+79,05/02/2009,08:12:59,M18,OFF,Meal_Preparation,end,
+80,05/02/2009,08:26:12,M14,ON,Watch_TV,begin,0 days 01:20:34
+81,05/02/2009,09:46:46,M09,OFF,Watch_TV,end,
+82,05/02/2009,10:08:09,M47,ON,R2_Personal_Hygiene,begin,0 days 00:41:30
+83,05/02/2009,10:49:39,M49,OFF,R2_Personal_Hygiene,end,
+84,05/02/2009,12:13:42,M17,ON,Meal_Preparation,begin,0 days 00:27:52
+85,05/02/2009,12:41:34,M21,ON,Meal_Preparation,end,
+86,05/02/2009,18:38:09,M30,ON,R1_Work,begin,0 days 00:04:04
+87,05/02/2009,18:42:13,M08,ON,Meal_Preparation,begin,0 days 00:03:52
+88,05/02/2009,18:46:05,M17,OFF,Meal_Preparation,end,
+89,05/02/2009,20:03:19,M46,ON,R2_Work,begin,0 days 01:47:37
+90,05/02/2009,21:50:56,M31,OFF,R1_Work,end,
+91,05/02/2009,21:51:15,M45,OFF,R2_Work,end,
+92,05/02/2009,22:02:09,M44,ON,R2_Sleep,begin,0 days 01:04:22
+93,05/02/2009,23:06:31,M32,ON,R1_Personal_Hygiene,begin,0 days 00:03:56
+94,05/02/2009,23:10:27,M33,OFF,R1_Personal_Hygiene,end,
+95,05/02/2009,23:11:49,M35,OFF,R1_Sleep,begin,0 days 08:15:06
+96,06/02/2009,07:26:55,M48,OFF,R2_Sleep,end,
+97,06/02/2009,07:33:48,M32,ON,R1_Sleep,end,
+98,06/02/2009,07:33:50,M32,OFF,R1_Bed_to_Toilet,begin,0 days 00:00:35
+99,06/02/2009,07:34:25,M37,ON,R1_Personal_Hygiene,begin,0 days 00:19:21
+100,06/02/2009,07:53:46,M38,ON,R1_Bed_to_Toilet,end,
+101,06/02/2009,07:54:02,M35,OFF,R1_Personal_Hygiene,end,
+102,06/02/2009,08:04:01,M17,ON,Meal_Preparation,begin,0 days 00:21:08
+103,06/02/2009,08:25:09,M48,ON,R2_Bed_to_Toilet,begin,0 days 00:00:00
+104,06/02/2009,08:25:09,M21,ON,Meal_Preparation,end,
+105,06/02/2009,08:27:28,M50,ON,R2_Bed_to_Toilet,end,
+106,06/02/2009,09:30:47,M19,ON,Meal_Preparation,begin,0 days 00:29:10
+107,06/02/2009,09:59:57,M21,ON,Meal_Preparation,end,
+108,06/02/2009,11:09:26,M17,ON,Meal_Preparation,begin,0 days 00:19:11
+109,06/02/2009,11:28:37,M15,OFF,Meal_Preparation,end,
+110,06/02/2009,14:28:42,M36,ON,R1_Work,begin,0 days 00:27:39
+111,06/02/2009,14:56:21,M37,ON,R1_Work,end,
+112,06/02/2009,15:09:17,M17,ON,Meal_Preparation,begin,0 days 00:19:21
+113,06/02/2009,15:28:38,M17,OFF,Meal_Preparation,end,
+114,06/02/2009,17:15:22,M41,ON,R1_Work,begin,0 days 00:00:39
+115,06/02/2009,17:16:01,M19,ON,Clean,begin,0 days 00:31:15
+116,06/02/2009,17:47:16,M45,OFF,R1_Work,end,
+117,06/02/2009,17:48:23,M21,ON,Clean,end,
+118,06/02/2009,20:01:30,M13,OFF,Study,begin,0 days 00:00:02
+119,06/02/2009,20:01:32,M31,OFF,R1_Work,begin,0 days 02:09:04
+120,06/02/2009,22:10:36,M13,OFF,Study,end,
+121,06/02/2009,22:12:26,M31,ON,R1_Work,end,
+122,06/02/2009,23:52:40,M36,ON,R1_Sleep,begin,0 days 00:01:57
+123,06/02/2009,23:54:37,M48,ON,R2_Sleep,begin,0 days 08:28:26
+124,07/02/2009,08:23:03,M35,OFF,R1_Sleep,end,
+125,07/02/2009,08:49:30,M47,ON,R2_Sleep,end,
+126,09/02/2009,07:26:39,M48,ON,R2_Bed_to_Toilet,begin,0 days 00:02:39
+127,09/02/2009,07:29:18,M48,ON,R2_Bed_to_Toilet,end,
+128,09/02/2009,07:49:25,M33,ON,R1_Bed_to_Toilet,begin,0 days 00:00:00
+129,09/02/2009,07:49:25,M33,ON,R1_Personal_Hygiene,begin,0 days 00:03:02
+130,09/02/2009,07:52:27,M39,OFF,R1_Bed_to_Toilet,end,
+131,09/02/2009,08:09:05,M36,OFF,R1_Personal_Hygiene,end,
+132,09/02/2009,08:23:14,M17,ON,Meal_Preparation,begin,0 days 00:07:18
+133,09/02/2009,08:30:32,M21,ON,Meal_Preparation,end,
+134,09/02/2009,09:33:48,M48,ON,R2_Bed_to_Toilet,begin,0 days 00:03:41
+135,09/02/2009,09:37:29,M44,OFF,R2_Bed_to_Toilet,end,
+136,09/02/2009,09:37:53,M17,ON,Meal_Preparation,begin,0 days 00:24:07
+137,09/02/2009,10:02:00,M17,ON,Meal_Preparation,end,
+138,09/02/2009,10:07:52,M49,ON,R2_Personal_Hygiene,begin,0 days 00:44:38
+139,09/02/2009,10:52:30,M48,ON,R2_Personal_Hygiene,end,
+140,09/02/2009,10:54:15,M48,ON,R2_Work,begin,0 days 00:40:29
+141,09/02/2009,11:34:44,M49,OFF,R2_Work,end,
+142,09/02/2009,15:40:39,M32,ON,R1_Work,begin,0 days 01:20:43
+143,09/02/2009,17:01:22,M45,ON,R2_Work,begin,0 days 00:20:26
+144,09/02/2009,17:21:48,M45,ON,R2_Personal_Hygiene,begin,0 days 00:18:43
+145,09/02/2009,17:40:31,M45,OFF,R2_Personal_Hygiene,end,
+146,09/02/2009,18:32:28,M31,OFF,R1_Work,end,
+147,09/02/2009,18:32:39,M45,ON,R2_Work,end,
+148,09/02/2009,18:33:29,M17,ON,Meal_Preparation,begin,0 days 00:12:01
+149,09/02/2009,18:45:30,M15,OFF,Meal_Preparation,end,
+150,09/02/2009,18:46:07,M33,ON,R1_Work,begin,0 days 00:44:55
+151,09/02/2009,19:31:02,M33,OFF,R1_Work,end,
+152,09/02/2009,20:07:11,M07,ON,Watch_TV,begin,0 days 00:33:22
+153,09/02/2009,20:40:33,M35,ON,R1_Personal_Hygiene,begin,0 days 00:05:01
+154,09/02/2009,20:45:34,M32,OFF,R1_Personal_Hygiene,end,
+155,09/02/2009,20:45:44,M34,OFF,R1_Sleep,begin,0 days 03:09:46
+156,09/02/2009,23:55:30,M09,ON,Watch_TV,end,
+157,09/02/2009,23:58:00,M43,ON,R2_Personal_Hygiene,begin,0 days 00:03:05
+158,10/02/2009,00:01:05,M43,OFF,R2_Personal_Hygiene,end,
+159,10/02/2009,00:26:55,M47,OFF,R2_Sleep,begin,0 days 07:27:51
+160,10/02/2009,07:54:46,M48,ON,R2_Bed_to_Toilet,begin,0 days 00:02:06
+161,10/02/2009,07:56:52,M47,OFF,R2_Bed_to_Toilet,end,
+162,10/02/2009,09:21:45,M35,ON,R1_Sleep,end,
+163,10/02/2009,09:21:46,M47,OFF,R2_Sleep,end,
+164,10/02/2009,09:25:46,M44,ON,R2_Personal_Hygiene,begin,0 days 00:36:25
+165,10/02/2009,10:02:11,M44,OFF,R2_Personal_Hygiene,end,
+166,10/02/2009,10:13:27,M17,ON,Meal_Preparation,begin,0 days 00:14:53
+167,10/02/2009,10:28:20,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:04:26
+168,10/02/2009,10:32:46,M16,OFF,Meal_Preparation,end,
+169,10/02/2009,10:41:48,M37,OFF,R1_Bed_to_Toilet,end,
+170,10/02/2009,11:00:45,M31,ON,R1_Work,begin,0 days 00:00:09
+171,10/02/2009,11:00:54,M45,ON,R2_Work,begin,0 days 00:08:50
+172,10/02/2009,11:09:44,M30,ON,R1_Work,end,
+173,10/02/2009,11:11:17,M16,ON,Meal_Preparation,begin,0 days 00:07:10
+174,10/02/2009,11:18:27,M45,OFF,R2_Work,end,
+175,10/02/2009,11:19:44,M16,ON,Meal_Preparation,end,
+176,10/02/2009,11:51:47,M30,ON,R1_Personal_Hygiene,begin,0 days 00:04:21
+177,10/02/2009,11:56:08,M38,OFF,R1_Personal_Hygiene,end,
+178,10/02/2009,13:05:24,M19,ON,Meal_Preparation,begin,0 days 03:58:33
+179,10/02/2009,17:03:57,M07,ON,Watch_TV,begin,0 days 00:38:26
+180,10/02/2009,17:42:23,AD1-A,2.79528,Meal_Preparation,end,
+181,10/02/2009,18:09:13,M15,ON,Meal_Preparation,begin,0 days 00:36:39
+182,10/02/2009,18:45:52,M17,OFF,Meal_Preparation,end,
+183,10/02/2009,19:00:29,M09,ON,Watch_TV,end,
+184,10/02/2009,19:03:56,M45,OFF,R2_Work,begin,0 days 00:11:24
+185,10/02/2009,19:15:20,M31,ON,R1_Work,begin,0 days 00:30:00
+186,10/02/2009,19:45:20,M45,OFF,R2_Work,end,
+187,10/02/2009,19:49:51,M31,ON,R1_Work,end,
+188,10/02/2009,19:55:08,M19,ON,Meal_Preparation,begin,0 days 00:13:01
+189,10/02/2009,20:08:09,M15,OFF,Meal_Preparation,end,
+190,11/02/2009,07:31:27,M17,ON,Meal_Preparation,begin,0 days 08:09:55
+191,11/02/2009,15:41:22,M08,ON,Watch_TV,begin,0 days 00:30:42
+192,11/02/2009,16:12:04,M15,OFF,Meal_Preparation,end,
+193,11/02/2009,16:14:05,M08,OFF,Watch_TV,end,
+194,12/02/2009,07:14:21,M19,ON,Meal_Preparation,begin,0 days 00:13:33
+195,12/02/2009,07:27:54,AD1-A,2.80418,Meal_Preparation,end,
+196,12/02/2009,08:27:11,M19,ON,Meal_Preparation,begin,0 days 12:01:36
+197,12/02/2009,20:28:47,M16,ON,Meal_Preparation,end,
+198,12/02/2009,20:28:48,M08,ON,Watch_TV,begin,0 days 00:43:18
+199,12/02/2009,21:12:06,M01,OFF,Watch_TV,end,
+200,13/02/2009,08:46:00,M17,ON,Meal_Preparation,begin,0 days 02:45:49
+201,13/02/2009,11:31:49,M16,OFF,Meal_Preparation,end,
+202,13/02/2009,17:08:48,M18,ON,Meal_Preparation,begin,0 days 00:16:16
+203,13/02/2009,17:25:04,M08,ON,Watch_TV,begin,0 days 01:53:35
+204,13/02/2009,19:18:39,M01,OFF,Watch_TV,end,
+205,13/02/2009,21:49:07,AD1-A,2.8134,Meal_Preparation,end,
+206,16/02/2009,08:11:33,M15,ON,Meal_Preparation,begin,0 days 00:36:30
+207,16/02/2009,08:48:03,M15,OFF,Meal_Preparation,end,
+208,16/02/2009,17:23:48,M06,ON,Study,begin,0 days 00:32:46
+209,16/02/2009,17:56:34,M09,OFF,Study,end,
+210,16/02/2009,19:13:57,M32,ON,R1_Personal_Hygiene,begin,0 days 00:01:09
+211,16/02/2009,19:15:06,M32,ON,R1_Personal_Hygiene,end,
+212,16/02/2009,20:42:05,M32,ON,R1_Work,begin,0 days 00:20:00
+213,16/02/2009,21:02:05,M48,ON,R2_Sleep,begin,0 days 01:38:09
+214,16/02/2009,22:40:14,M31,OFF,R1_Work,end,
+215,16/02/2009,22:41:08,M34,ON,R1_Sleep,begin,0 days 00:16:55
+216,16/02/2009,22:58:03,M34,ON,R1_Bed_to_Toilet,begin,0 days 00:02:50
+217,16/02/2009,23:00:53,M35,ON,R1_Bed_to_Toilet,end,
+218,16/02/2009,23:19:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+219,16/02/2009,23:23:11,M32,ON,R1_Bed_to_Toilet,end,
+220,17/02/2009,00:28:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+221,17/02/2009,00:32:11,M32,ON,R1_Bed_to_Toilet,end,
+222,17/02/2009,01:17:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+223,17/02/2009,01:21:11,M32,ON,R1_Bed_to_Toilet,end,
+224,17/02/2009,03:00:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+225,17/02/2009,03:04:11,M32,ON,R1_Bed_to_Toilet,end,
+226,17/02/2009,05:35:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+227,17/02/2009,05:39:11,M32,ON,R1_Bed_to_Toilet,end,
+228,17/02/2009,07:02:34,M47,ON,R2_Sleep,end,
+229,17/02/2009,07:02:56,M43,ON,R2_Bed_to_Toilet,begin,0 days 00:01:53
+230,17/02/2009,07:04:49,M28,ON,R2_Bed_to_Toilet,end,
+231,17/02/2009,07:05:06,M19,ON,Meal_Preparation,begin,0 days 00:06:29
+232,17/02/2009,07:11:35,M17,OFF,Meal_Preparation,end,
+233,17/02/2009,07:14:44,M44,ON,R2_Personal_Hygiene,begin,0 days 00:23:19
+234,17/02/2009,07:38:03,M50,ON,R2_Personal_Hygiene,end,
+235,17/02/2009,07:39:13,M44,ON,R2_Personal_Hygiene,begin,0 days 00:25:47
+236,17/02/2009,08:05:00,M44,ON,R2_Personal_Hygiene,end,
+237,17/02/2009,08:05:10,M44,OFF,R2_Work,begin,0 days 00:29:46
+238,17/02/2009,08:34:56,M35,OFF,R1_Sleep,end,
+239,17/02/2009,08:35:46,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:01:34
+240,17/02/2009,08:37:20,M41,OFF,R1_Bed_to_Toilet,end,
+241,17/02/2009,08:37:25,M39,OFF,R1_Personal_Hygiene,begin,0 days 00:17:43
+242,17/02/2009,08:55:08,M33,ON,R1_Personal_Hygiene,end,
+243,17/02/2009,08:57:14,M45,OFF,R2_Work,end,
+244,17/02/2009,17:00:16,M45,ON,R2_Work,begin,0 days 00:09:05
+245,17/02/2009,17:09:21,M45,OFF,R2_Work,end,
+246,17/02/2009,17:18:01,M16,ON,Meal_Preparation,begin,0 days 00:00:02
+247,17/02/2009,17:18:03,M08,ON,Watch_TV,begin,0 days 01:20:15
+248,17/02/2009,18:38:18,M19,ON,Meal_Preparation,end,
+249,17/02/2009,18:46:58,M45,OFF,R2_Work,begin,0 days 00:24:50
+250,17/02/2009,19:11:48,M09,ON,Watch_TV,end,
+251,17/02/2009,19:13:02,M29,ON,R1_Personal_Hygiene,begin,0 days 00:05:08
+252,17/02/2009,19:18:10,M30,ON,R1_Personal_Hygiene,end,
+253,17/02/2009,19:21:08,M31,ON,R1_Work,begin,0 days 02:11:59
+254,17/02/2009,21:33:07,M45,OFF,R2_Work,end,
+255,17/02/2009,21:34:06,M48,ON,R2_Sleep,begin,0 days 01:03:49
+256,17/02/2009,22:37:55,M31,OFF,R1_Work,end,
+257,17/02/2009,22:38:01,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:02:03
+258,17/02/2009,22:40:04,M30,OFF,R1_Bed_to_Toilet,end,
+259,17/02/2009,22:41:57,M35,ON,R1_Sleep,begin,0 days 01:07:26
+260,17/02/2009,23:49:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+261,17/02/2009,23:53:11,M32,ON,R1_Bed_to_Toilet,end,
+262,18/02/2009,01:47:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+263,18/02/2009,01:51:11,M32,ON,R1_Bed_to_Toilet,end,
+264,18/02/2009,03:48:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+265,18/02/2009,03:52:11,M32,ON,R1_Bed_to_Toilet,end,
+266,18/02/2009,06:14:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+267,18/02/2009,06:18:11,M32,ON,R1_Bed_to_Toilet,end,
+268,18/02/2009,06:59:19,M46,ON,R2_Bed_to_Toilet,begin,0 days 00:01:29
+269,18/02/2009,07:00:48,M50,OFF,R2_Bed_to_Toilet,end,
+270,18/02/2009,07:43:01,M47,OFF,R2_Sleep,end,
+271,18/02/2009,07:44:47,M35,OFF,R1_Sleep,end,
+272,18/02/2009,07:45:29,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:15:25
+273,18/02/2009,08:00:54,M33,ON,R1_Bed_to_Toilet,end,
+274,18/02/2009,08:01:11,M30,ON,R1_Personal_Hygiene,begin,0 days 00:06:24
+275,18/02/2009,08:07:35,M30,OFF,R1_Personal_Hygiene,end,
+276,18/02/2009,08:21:02,M17,ON,Meal_Preparation,begin,0 days 00:10:30
+277,18/02/2009,08:31:32,M17,OFF,Meal_Preparation,end,
+278,18/02/2009,17:16:55,M08,ON,Watch_TV,begin,0 days 00:06:46
+279,18/02/2009,17:23:41,M15,OFF,Meal_Preparation,begin,0 days 03:05:42
+280,18/02/2009,20:29:23,M16,OFF,Meal_Preparation,end,
+281,18/02/2009,20:43:16,M32,OFF,R1_Work,begin,0 days 00:14:33
+282,18/02/2009,20:57:49,M45,ON,R2_Work,begin,0 days 00:15:32
+283,18/02/2009,21:13:21,M44,OFF,R2_Work,end,
+284,18/02/2009,22:43:13,M32,OFF,R1_Work,end,
+285,18/02/2009,22:45:57,M24,ON,Watch_TV,end,
+286,18/02/2009,22:46:24,M34,OFF,R1_Sleep,begin,0 days 00:36:59
+287,18/02/2009,23:23:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+288,18/02/2009,23:27:11,M32,ON,R1_Bed_to_Toilet,end,
+289,18/02/2009,23:54:46,M48,ON,R2_Sleep,begin,0 days 01:45:37
+290,19/02/2009,01:40:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+291,19/02/2009,01:44:11,M32,ON,R1_Bed_to_Toilet,end,
+292,19/02/2009,03:05:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+293,19/02/2009,03:09:11,M32,ON,R1_Bed_to_Toilet,end,
+294,19/02/2009,05:39:23,M38,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+295,19/02/2009,05:43:11,M32,ON,R1_Bed_to_Toilet,end,
+296,19/02/2009,06:46:58,M35,OFF,R1_Sleep,end,
+297,19/02/2009,06:47:17,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:15:22
+298,19/02/2009,07:02:39,M37,OFF,R1_Bed_to_Toilet,end,
+299,19/02/2009,07:08:20,M30,ON,R1_Personal_Hygiene,begin,0 days 00:03:55
+300,19/02/2009,07:12:15,M36,OFF,R1_Personal_Hygiene,end,
+301,19/02/2009,07:13:13,M17,ON,Meal_Preparation,begin,0 days 00:01:47
+302,19/02/2009,07:15:00,M47,OFF,R2_Sleep,end,
+303,19/02/2009,07:15:00,M48,OFF,R2_Bed_to_Toilet,begin,0 days 00:01:57
+304,19/02/2009,07:16:57,M40,ON,R2_Bed_to_Toilet,end,
+305,19/02/2009,07:17:02,M38,OFF,R2_Personal_Hygiene,begin,0 days 00:14:08
+306,19/02/2009,07:31:10,M18,ON,Meal_Preparation,end,
+307,19/02/2009,07:33:02,M38,ON,R2_Personal_Hygiene,end,
+308,19/02/2009,08:14:49,M17,ON,Meal_Preparation,begin,0 days 00:37:01
+309,19/02/2009,08:51:50,M17,ON,Meal_Preparation,end,
+310,19/02/2009,11:36:19,M17,ON,Meal_Preparation,begin,0 days 01:22:47
+311,19/02/2009,12:59:06,M17,OFF,Meal_Preparation,end,
+312,19/02/2009,17:00:10,M31,ON,R1_Work,begin,0 days 00:22:36
+313,19/02/2009,17:22:46,M31,OFF,R1_Work,end,
+314,19/02/2009,18:21:58,M17,ON,Meal_Preparation,begin,0 days 00:14:26
+315,19/02/2009,18:36:24,M31,ON,R1_Work,begin,0 days 00:02:05
+316,19/02/2009,18:38:29,M17,OFF,Meal_Preparation,end,
+317,19/02/2009,20:00:50,M32,OFF,R1_Work,end,
+318,19/02/2009,20:01:03,M34,ON,R1_Sleep,begin,0 days 00:00:26
+319,19/02/2009,20:01:29,M44,ON,R2_Work,begin,0 days 01:08:54
+320,19/02/2009,21:10:23,M45,ON,R2_Work,end,
+321,19/02/2009,21:10:28,M48,ON,R2_Sleep,begin,0 days 07:16:15
+322,20/02/2009,04:26:43,M35,ON,R1_Sleep,end,
+323,20/02/2009,04:27:51,M32,ON,R1_Work,begin,0 days 01:00:25
+324,20/02/2009,05:28:16,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:15:24
+325,20/02/2009,05:43:40,M30,OFF,R1_Bed_to_Toilet,end,
+326,20/02/2009,05:44:35,M30,ON,R1_Personal_Hygiene,begin,0 days 00:17:25
+327,20/02/2009,06:02:00,M37,OFF,R1_Personal_Hygiene,end,
+328,20/02/2009,06:23:24,M32,OFF,R1_Work,end,
+329,20/02/2009,07:59:17,M48,OFF,R2_Sleep,end,
+330,20/02/2009,07:59:18,M49,OFF,R2_Bed_to_Toilet,begin,0 days 00:02:16
+331,20/02/2009,08:01:34,M44,OFF,R2_Bed_to_Toilet,end,
+332,20/02/2009,08:10:21,M17,ON,Meal_Preparation,begin,0 days 00:39:28
+333,20/02/2009,08:49:49,M17,OFF,Meal_Preparation,end,
+334,20/02/2009,12:00:01,M45,OFF,R2_Work,begin,0 days 00:34:29
+335,20/02/2009,12:34:30,M45,ON,R2_Work,end,
+336,20/02/2009,14:04:11,M31,ON,R1_Work,begin,0 days 01:18:39
+337,20/02/2009,15:22:50,M31,OFF,R1_Work,end,
+338,20/02/2009,17:50:01,M16,ON,Meal_Preparation,begin,0 days 00:35:54
+339,20/02/2009,18:25:55,AD1-A,2.8052,Meal_Preparation,end,
+340,20/02/2009,22:07:56,M37,OFF,R2_Personal_Hygiene,begin,0 days 00:20:24
+341,20/02/2009,22:28:20,M44,ON,R2_Personal_Hygiene,end,
+342,21/02/2009,00:38:40,M35,ON,R1_Sleep,begin,0 days 00:00:00
+343,21/02/2009,00:38:40,M35,ON,R2_Sleep,begin,0 days 07:04:50
+344,21/02/2009,07:43:30,M35,OFF,R1_Sleep,end,
+345,21/02/2009,07:43:30,M35,OFF,R2_Sleep,end,
+346,23/02/2009,07:34:41,M43,ON,R2_Bed_to_Toilet,begin,0 days 00:01:31
+347,23/02/2009,07:36:12,M43,OFF,R2_Bed_to_Toilet,end,
+348,23/02/2009,07:45:44,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:01:28
+349,23/02/2009,07:47:12,M39,OFF,R1_Bed_to_Toilet,end,
+350,23/02/2009,07:54:53,M39,ON,R1_Personal_Hygiene,begin,0 days 00:07:04
+351,23/02/2009,08:01:57,M30,ON,R1_Personal_Hygiene,end,
+352,23/02/2009,08:09:52,M16,ON,Meal_Preparation,begin,0 days 00:08:08
+353,23/02/2009,08:18:00,M16,OFF,Meal_Preparation,end,
+354,23/02/2009,08:31:30,M36,ON,R1_Personal_Hygiene,begin,0 days 00:03:53
+355,23/02/2009,08:35:23,M29,OFF,R1_Personal_Hygiene,end,
+356,23/02/2009,08:35:28,M45,OFF,R2_Work,begin,0 days 00:47:35
+357,23/02/2009,09:23:03,M43,ON,R2_Personal_Hygiene,begin,0 days 00:45:46
+358,23/02/2009,10:08:49,M50,ON,R2_Personal_Hygiene,end,
+359,23/02/2009,10:50:32,M44,OFF,R2_Work,end,
+360,23/02/2009,10:53:04,M19,ON,Meal_Preparation,begin,0 days 00:13:38
+361,23/02/2009,11:06:42,M16,OFF,Meal_Preparation,end,
+362,23/02/2009,14:29:55,M07,ON,Watch_TV,begin,0 days 00:23:12
+363,23/02/2009,14:53:07,M09,ON,Watch_TV,end,
+364,23/02/2009,15:07:03,M06,ON,Watch_TV,begin,0 days 01:27:56
+365,23/02/2009,16:34:59,M09,OFF,Watch_TV,end,
+366,23/02/2009,16:35:04,M14,ON,Meal_Preparation,begin,0 days 01:16:33
+367,23/02/2009,17:51:37,M17,OFF,Meal_Preparation,end,
+368,23/02/2009,17:53:53,M32,ON,R1_Work,begin,0 days 00:59:06
+369,23/02/2009,18:52:59,M31,ON,R1_Work,end,
+370,23/02/2009,23:14:05,M35,ON,R1_Sleep,begin,0 days 00:09:26
+371,23/02/2009,23:23:31,M47,ON,R2_Sleep,begin,0 days 07:38:04
+372,24/02/2009,07:01:35,M35,OFF,R1_Sleep,end,
+373,24/02/2009,07:10:17,M47,ON,R2_Sleep,end,
+374,24/02/2009,07:10:35,M42,ON,R2_Bed_to_Toilet,begin,0 days 00:02:40
+375,24/02/2009,07:13:15,M44,ON,R2_Bed_to_Toilet,end,
+376,24/02/2009,07:17:25,M43,ON,R2_Personal_Hygiene,begin,0 days 00:15:33
+377,24/02/2009,07:32:58,M32,ON,R1_Work,begin,0 days 00:19:03
+378,24/02/2009,07:52:01,M37,OFF,R2_Personal_Hygiene,end,
+379,24/02/2009,07:57:57,M31,ON,R1_Work,end,
+380,24/02/2009,07:58:00,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:03:21
+381,24/02/2009,08:01:21,M27,ON,R1_Bed_to_Toilet,end,
+382,24/02/2009,08:01:34,M17,ON,Meal_Preparation,begin,0 days 00:01:23
+383,24/02/2009,08:02:57,M17,OFF,Meal_Preparation,end,
+384,24/02/2009,08:03:20,M31,ON,R1_Work,begin,0 days 00:00:58
+385,24/02/2009,08:04:18,M17,ON,Meal_Preparation,begin,0 days 00:37:20
+386,24/02/2009,08:41:38,M19,OFF,Meal_Preparation,end,
+387,24/02/2009,08:47:44,M31,OFF,R1_Work,end,
+388,24/02/2009,08:47:45,M30,OFF,R1_Personal_Hygiene,begin,0 days 00:27:32
+389,24/02/2009,09:15:17,M35,ON,R1_Personal_Hygiene,end,
+390,24/02/2009,16:34:59,M17,ON,Meal_Preparation,begin,0 days 00:00:21
+391,24/02/2009,16:35:20,M06,ON,Watch_TV,begin,0 days 00:13:52
+392,24/02/2009,16:49:12,M17,OFF,Meal_Preparation,end,
+393,24/02/2009,20:38:16,M07,ON,Watch_TV,end,
+394,24/02/2009,20:43:59,M44,ON,R2_Work,begin,0 days 00:24:20
+395,24/02/2009,21:08:19,M32,ON,R1_Work,begin,0 days 00:15:59
+396,24/02/2009,21:24:18,M44,OFF,R2_Work,end,
+397,24/02/2009,21:37:57,M31,OFF,R1_Work,end,
+398,24/02/2009,21:37:57,M34,OFF,R1_Sleep,begin,0 days 00:00:58
+399,24/02/2009,21:38:55,M48,ON,R2_Sleep,begin,0 days 09:54:30
+400,25/02/2009,07:33:25,M35,ON,R1_Sleep,end,
+401,25/02/2009,07:34:27,M36,ON,R1_Personal_Hygiene,begin,0 days 00:28:18
+402,25/02/2009,08:02:45,M36,ON,R1_Personal_Hygiene,end,
+403,25/02/2009,08:10:05,M17,ON,Meal_Preparation,begin,0 days 00:15:54
+404,25/02/2009,08:25:59,M48,OFF,R2_Sleep,end,
+405,25/02/2009,08:26:32,M43,ON,R2_Bed_to_Toilet,begin,0 days 00:00:57
+406,25/02/2009,08:27:29,AD1-B,0.480007,Meal_Preparation,end,
+407,25/02/2009,08:27:46,M44,ON,R2_Bed_to_Toilet,end,
+408,25/02/2009,08:28:12,M17,ON,Meal_Preparation,begin,0 days 00:20:35
+409,25/02/2009,08:48:47,M17,OFF,Meal_Preparation,end,
+410,25/02/2009,08:49:28,M44,ON,R2_Personal_Hygiene,begin,0 days 00:03:40
+411,25/02/2009,08:53:08,M29,OFF,R2_Personal_Hygiene,end,
+412,25/02/2009,08:53:09,M45,ON,R2_Work,begin,0 days 00:41:30
+413,25/02/2009,09:34:39,M43,ON,R2_Personal_Hygiene,begin,0 days 00:04:33
+414,25/02/2009,09:39:12,M38,OFF,R2_Personal_Hygiene,end,
+415,25/02/2009,09:59:54,M45,OFF,R2_Work,end,
+416,25/02/2009,18:02:42,M19,ON,Meal_Preparation,begin,0 days 00:14:51
+417,25/02/2009,18:17:33,M07,ON,Watch_TV,begin,0 days 01:26:58
+418,25/02/2009,19:44:31,M07,OFF,Watch_TV,end,
+419,25/02/2009,19:45:15,M17,OFF,Meal_Preparation,end,
+420,25/02/2009,19:45:27,M44,ON,R2_Work,begin,0 days 00:48:36
+421,25/02/2009,20:34:03,M32,ON,R1_Work,begin,0 days 00:17:52
+422,25/02/2009,20:51:55,M44,OFF,R2_Work,end,
+423,25/02/2009,21:00:21,M47,ON,R2_Sleep,begin,0 days 00:31:14
+424,25/02/2009,21:31:35,M31,OFF,R1_Work,end,
+425,25/02/2009,21:41:35,M35,ON,R1_Sleep,begin,0 days 09:10:15
+426,26/02/2009,06:51:50,M35,OFF,R1_Sleep,end,
+427,26/02/2009,07:10:27,M47,ON,R2_Sleep,end,
+428,26/02/2009,07:12:15,M50,ON,R2_Personal_Hygiene,begin,0 days 00:32:56
+429,26/02/2009,07:45:11,M42,OFF,R2_Personal_Hygiene,end,
+430,26/02/2009,08:02:24,M17,ON,Meal_Preparation,begin,0 days 00:26:09
+431,26/02/2009,08:28:33,M17,OFF,Meal_Preparation,end,
+432,26/02/2009,08:47:52,M29,ON,R1_Personal_Hygiene,begin,0 days 00:23:26
+433,26/02/2009,09:11:18,M36,OFF,R1_Personal_Hygiene,end,
+434,26/02/2009,09:31:15,M17,ON,Meal_Preparation,begin,0 days 00:26:49
+435,26/02/2009,09:58:04,M17,OFF,Meal_Preparation,end,
+436,26/02/2009,12:02:39,M02,ON,Watch_TV,begin,0 days 00:11:35
+437,26/02/2009,12:14:14,M16,ON,Meal_Preparation,begin,0 days 00:38:34
+438,26/02/2009,12:52:48,M15,ON,Meal_Preparation,end,
+439,26/02/2009,13:02:25,M08,ON,Watch_TV,end,
+440,26/02/2009,17:00:17,M31,ON,R1_Work,begin,0 days 00:10:15
+441,26/02/2009,17:10:32,M44,ON,R2_Work,begin,0 days 00:08:13
+442,26/02/2009,17:18:45,M42,ON,R2_Personal_Hygiene,begin,0 days 00:27:07
+443,26/02/2009,17:45:52,M42,ON,R2_Personal_Hygiene,end,
+444,26/02/2009,17:51:59,M31,OFF,R1_Work,end,
+445,26/02/2009,19:04:12,M16,ON,Meal_Preparation,begin,0 days 00:07:26
+446,26/02/2009,19:11:38,M17,ON,Meal_Preparation,end,
+447,26/02/2009,19:12:07,M31,ON,R1_Work,begin,0 days 01:22:55
+448,26/02/2009,20:35:02,M42,OFF,R2_Work,end,
+449,26/02/2009,20:40:55,M01,OFF,Clean,begin,0 days 00:17:23
+450,26/02/2009,20:58:18,M09,OFF,Clean,end,
+451,26/02/2009,22:05:48,M31,OFF,R1_Work,end,
+452,26/02/2009,22:10:06,M48,ON,R2_Sleep,begin,0 days 00:00:31
+453,26/02/2009,22:10:37,M31,ON,R1_Work,begin,0 days 01:24:29
+454,26/02/2009,23:35:06,M31,ON,R1_Work,end,
+455,26/02/2009,23:35:16,M35,ON,R1_Sleep,begin,0 days 06:55:21
+456,27/02/2009,06:30:37,M44,ON,R2_Bed_to_Toilet,begin,0 days 00:01:38
+457,27/02/2009,06:32:15,M28,OFF,R2_Bed_to_Toilet,end,
+458,27/02/2009,07:48:15,M47,OFF,R2_Sleep,end,
+459,27/02/2009,07:49:14,M35,ON,R1_Sleep,end,
+460,27/02/2009,07:49:30,M30,ON,R1_Personal_Hygiene,begin,0 days 00:18:04
+461,27/02/2009,08:07:34,M30,OFF,R1_Personal_Hygiene,end,
+462,27/02/2009,08:15:52,M17,ON,Meal_Preparation,begin,0 days 00:16:43
+463,27/02/2009,08:32:35,M15,OFF,Meal_Preparation,end,
+464,27/02/2009,08:52:35,M42,ON,R2_Bed_to_Toilet,begin,0 days 00:02:05
+465,27/02/2009,08:54:40,M50,ON,R2_Bed_to_Toilet,end,
+466,27/02/2009,08:55:06,M17,ON,Meal_Preparation,begin,0 days 00:00:42
+467,27/02/2009,08:55:48,M16,OFF,Meal_Preparation,end,
+468,27/02/2009,15:23:59,M31,OFF,R1_Work,begin,0 days 00:13:40
+469,27/02/2009,15:37:39,M44,ON,R2_Work,begin,0 days 00:29:41
+470,27/02/2009,16:07:20,M32,OFF,R1_Work,end,
+471,27/02/2009,16:07:52,M44,OFF,R2_Work,end,
+472,27/02/2009,18:07:44,M19,ON,Meal_Preparation,begin,0 days 00:48:02
+473,27/02/2009,18:55:46,M31,ON,R1_Work,begin,0 days 00:17:14
+474,27/02/2009,19:13:00,M16,OFF,Meal_Preparation,end,
+475,27/02/2009,19:13:12,M01,ON,Watch_TV,begin,0 days 03:56:43
+476,27/02/2009,23:09:55,M02,OFF,Watch_TV,end,
+477,27/02/2009,23:11:46,M44,ON,R2_Work,begin,0 days 00:38:51
+478,27/02/2009,23:50:37,M45,OFF,R2_Work,end,
+479,27/02/2009,23:52:57,M48,ON,R2_Sleep,begin,0 days 00:55:01
+480,28/02/2009,00:47:58,M31,ON,R1_Work,end,
+481,28/02/2009,00:48:01,M35,ON,R1_Sleep,begin,0 days 07:35:33
+482,28/02/2009,08:23:34,M35,OFF,R1_Sleep,end,
+483,28/02/2009,08:39:39,M48,OFF,R2_Sleep,end,
+484,02/03/2009,17:05:21,M17,ON,Meal_Preparation,begin,0 days 00:36:11
+485,02/03/2009,17:41:32,M29,ON,R1_Personal_Hygiene,begin,0 days 00:04:49
+486,02/03/2009,17:46:21,M16,OFF,Meal_Preparation,end,
+487,02/03/2009,17:46:34,M30,OFF,R1_Personal_Hygiene,end,
+488,02/03/2009,17:46:44,M31,OFF,R1_Work,begin,0 days 02:26:54
+489,02/03/2009,20:13:38,M31,ON,R1_Work,end,
+490,02/03/2009,20:15:17,M29,OFF,R1_Personal_Hygiene,begin,0 days 00:22:24
+491,02/03/2009,20:37:41,M36,ON,R1_Personal_Hygiene,end,
+492,02/03/2009,20:37:55,M35,OFF,R1_Sleep,begin,0 days 01:40:08
+493,02/03/2009,22:18:03,M32,ON,R1_Bed_to_Toilet,begin,0 days 00:02:17
+494,02/03/2009,22:20:20,M36,ON,R1_Bed_to_Toilet,end,
+495,02/03/2009,22:51:32,M50,ON,R2_Bed_to_Toilet,begin,0 days 00:02:26
+496,02/03/2009,22:53:58,M50,ON,R2_Bed_to_Toilet,end,
+497,02/03/2009,22:53:58,M44,OFF,R2_Work,begin,0 days 01:01:17
+498,02/03/2009,23:55:15,M45,OFF,R2_Work,end,
+499,02/03/2009,23:55:20,M47,OFF,R2_Sleep,begin,0 days 07:13:23
+500,03/03/2009,07:08:43,M35,OFF,R1_Sleep,end,
+501,03/03/2009,07:08:43,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:01:43
+502,03/03/2009,07:10:26,M48,ON,R2_Sleep,end,
+503,03/03/2009,07:10:46,M31,ON,R1_Bed_to_Toilet,end,
+504,03/03/2009,07:10:54,M31,OFF,R1_Work,begin,0 days 00:10:17
+505,03/03/2009,07:21:11,M50,ON,R2_Bed_to_Toilet,begin,0 days 00:00:00
+506,03/03/2009,07:21:11,M50,ON,R2_Personal_Hygiene,begin,0 days 00:02:04
+507,03/03/2009,07:23:15,M43,OFF,R2_Bed_to_Toilet,end,
+508,03/03/2009,08:00:52,M45,ON,R2_Personal_Hygiene,end,
+509,03/03/2009,08:01:12,M45,OFF,R2_Work,begin,0 days 00:22:44
+510,03/03/2009,08:23:56,M45,OFF,R2_Work,end,
+511,03/03/2009,08:24:21,M17,ON,Meal_Preparation,begin,0 days 00:15:54
+512,03/03/2009,08:40:15,M32,OFF,R1_Work,end,
+513,03/03/2009,08:48:07,M17,OFF,Meal_Preparation,end,
+514,03/03/2009,08:56:35,M19,ON,Meal_Preparation,begin,0 days 00:33:19
+515,03/03/2009,09:29:54,AD1-A,2.79426,Meal_Preparation,end,
+516,03/03/2009,09:30:47,M29,ON,R1_Personal_Hygiene,begin,0 days 00:25:27
+517,03/03/2009,09:56:14,M32,ON,R1_Personal_Hygiene,end,
+518,03/03/2009,12:09:11,M17,ON,Meal_Preparation,begin,0 days 00:29:26
+519,03/03/2009,12:38:37,AD1-A,2.81254,Meal_Preparation,end,
+520,03/03/2009,17:00:05,M31,ON,R1_Work,begin,0 days 00:26:39
+521,03/03/2009,17:26:44,M09,ON,Study,begin,0 days 03:14:29
+522,03/03/2009,20:41:13,M08,OFF,Study,end,
+523,03/03/2009,22:02:25,M31,OFF,R1_Work,end,
+524,03/03/2009,22:02:34,M34,ON,R1_Sleep,begin,0 days 00:33:58
+525,03/03/2009,22:36:32,M44,ON,R2_Work,begin,0 days 00:21:39
+526,03/03/2009,22:58:11,M44,OFF,R2_Work,end,
+527,03/03/2009,23:00:03,M48,ON,R2_Sleep,begin,0 days 08:00:02
+528,04/03/2009,07:00:05,M35,OFF,R1_Sleep,end,
+529,04/03/2009,07:00:44,M36,ON,R1_Personal_Hygiene,begin,0 days 00:24:52
+530,04/03/2009,07:25:36,M36,ON,R1_Personal_Hygiene,end,
+531,04/03/2009,07:26:00,M32,ON,R1_Work,begin,0 days 00:31:26
+532,04/03/2009,07:57:26,M32,OFF,R1_Work,end,
+533,04/03/2009,08:08:15,M29,ON,R1_Bed_to_Toilet,begin,0 days 00:03:56
+534,04/03/2009,08:12:11,M32,ON,R1_Bed_to_Toilet,end,
+535,04/03/2009,08:24:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+536,04/03/2009,08:28:11,M32,ON,R1_Bed_to_Toilet,end,
+537,04/03/2009,09:06:01,M47,OFF,R2_Sleep,end,
+538,04/03/2009,09:06:03,M44,ON,R2_Bed_to_Toilet,begin,0 days 00:01:39
+539,04/03/2009,09:07:42,M50,ON,R2_Bed_to_Toilet,end,
+540,04/03/2009,09:08:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+541,04/03/2009,09:12:11,M32,ON,R1_Bed_to_Toilet,end,
+542,04/03/2009,09:41:30,M29,ON,R2_Personal_Hygiene,begin,0 days 00:34:14
+543,04/03/2009,10:15:44,M43,ON,R2_Personal_Hygiene,end,
+544,04/03/2009,10:18:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+545,04/03/2009,10:22:11,M32,ON,R1_Bed_to_Toilet,end,
+546,04/03/2009,10:37:25,I03,ABSENT,Watch_TV,begin,0 days 00:00:09
+547,04/03/2009,10:37:34,AD1-A,2.88903,Meal_Preparation,begin,0 days 01:02:21
+548,04/03/2009,11:39:55,M09,OFF,Watch_TV,end,
+549,04/03/2009,11:45:01,M17,OFF,Meal_Preparation,end,
+550,04/03/2009,11:47:21,M44,ON,R2_Work,begin,0 days 00:58:17
+551,04/03/2009,12:45:38,M44,ON,R2_Work,end,
+552,04/03/2009,13:08:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+553,04/03/2009,13:12:11,M32,ON,R1_Bed_to_Toilet,end,
+554,04/03/2009,17:00:07,M32,OFF,R1_Work,begin,0 days 02:09:16
+555,04/03/2009,19:09:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+556,04/03/2009,19:13:11,M32,ON,R1_Bed_to_Toilet,end,
+557,04/03/2009,19:13:49,M19,ON,Meal_Preparation,begin,0 days 00:20:41
+558,04/03/2009,19:34:30,M31,ON,R1_Work,end,
+559,04/03/2009,20:13:28,AD1-A,2.81551,Meal_Preparation,end,
+560,04/03/2009,20:18:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+561,04/03/2009,20:22:11,M32,ON,R1_Bed_to_Toilet,end,
+562,04/03/2009,20:23:00,M31,ON,R1_Work,begin,0 days 00:41:39
+563,04/03/2009,21:04:39,M08,ON,Watch_TV,begin,0 days 01:17:44
+564,04/03/2009,22:22:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+565,04/03/2009,22:26:11,M32,ON,R1_Bed_to_Toilet,end,
+566,04/03/2009,22:58:29,M32,OFF,R1_Work,end,
+567,04/03/2009,23:19:41,M01,OFF,Watch_TV,end,
+568,04/03/2009,23:27:21,M48,ON,R2_Sleep,begin,0 days 00:44:36
+569,05/03/2009,00:11:57,M34,ON,R1_Sleep,begin,0 days 06:27:07
+570,05/03/2009,06:39:04,M48,OFF,R2_Sleep,end,
+571,05/03/2009,06:42:32,M35,OFF,R1_Sleep,end,
+572,05/03/2009,06:43:33,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:17:04
+573,05/03/2009,07:00:37,M32,ON,R1_Bed_to_Toilet,end,
+574,05/03/2009,07:01:02,M30,ON,R1_Personal_Hygiene,begin,0 days 00:21:26
+575,05/03/2009,07:22:28,M32,ON,R1_Personal_Hygiene,end,
+576,05/03/2009,07:34:16,M43,ON,R2_Bed_to_Toilet,begin,0 days 00:00:08
+577,05/03/2009,07:34:24,M17,ON,Meal_Preparation,begin,0 days 00:04:57
+578,05/03/2009,07:39:21,M29,ON,R2_Bed_to_Toilet,end,
+579,05/03/2009,07:59:36,M19,OFF,Meal_Preparation,end,
+580,05/03/2009,08:04:12,M42,ON,R2_Personal_Hygiene,begin,0 days 00:34:33
+581,05/03/2009,08:38:45,M50,ON,R2_Personal_Hygiene,end,
+582,05/03/2009,08:39:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+583,05/03/2009,08:43:11,M32,ON,R1_Bed_to_Toilet,end,
+584,05/03/2009,08:46:55,M21,ON,Meal_Preparation,begin,0 days 00:05:16
+585,05/03/2009,08:52:11,M17,OFF,Meal_Preparation,end,
+586,05/03/2009,09:10:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:01:48
+587,05/03/2009,09:12:11,M32,ON,R1_Bed_to_Toilet,end,
+588,05/03/2009,12:20:27,M15,ON,Meal_Preparation,begin,0 days 00:32:15
+589,05/03/2009,12:52:42,M16,OFF,Meal_Preparation,end,
+590,05/03/2009,13:18:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+591,05/03/2009,13:22:11,M32,ON,R1_Bed_to_Toilet,end,
+592,05/03/2009,17:00:02,M31,OFF,R1_Work,begin,0 days 00:00:42
+593,05/03/2009,17:00:44,AD1-A,2.82637,Meal_Preparation,begin,0 days 00:32:19
+594,05/03/2009,17:33:03,AD1-A,2.79825,Meal_Preparation,end,
+595,05/03/2009,17:34:25,M31,OFF,R1_Work,end,
+596,05/03/2009,17:35:49,AD1-A,2.81825,Meal_Preparation,begin,0 days 00:42:36
+597,05/03/2009,18:18:25,M44,ON,R2_Work,begin,0 days 00:00:50
+598,05/03/2009,18:19:15,M16,OFF,Meal_Preparation,end,
+599,05/03/2009,18:37:32,M45,OFF,R2_Work,end,
+600,05/03/2009,18:39:23,M41,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+601,05/03/2009,18:43:11,M32,ON,R1_Bed_to_Toilet,end,
+602,05/03/2009,18:43:55,M31,ON,R1_Work,begin,0 days 00:18:19
+603,05/03/2009,19:02:14,M48,ON,R2_Sleep,begin,0 days 02:05:35
+604,05/03/2009,21:07:49,M31,OFF,R1_Work,end,
+605,05/03/2009,21:09:23,M40,ON,R1_Bed_to_Toilet,begin,0 days 00:03:48
+606,05/03/2009,21:13:11,M32,ON,R1_Bed_to_Toilet,end,
+607,05/03/2009,21:14:31,M35,ON,R1_Sleep,begin,0 days 01:20:01
+608,05/03/2009,22:34:32,M41,ON,R1_Bed_to_Toilet,begin,0 days 00:03:39
+609,05/03/2009,22:38:11,M32,ON,R1_Bed_to_Toilet,end,
+610,06/03/2009,07:35:52,M34,OFF,R1_Sleep,end,
+611,06/03/2009,07:38:43,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:24:17
+612,06/03/2009,08:03:00,M29,OFF,R1_Bed_to_Toilet,end,
+613,06/03/2009,08:03:01,M36,ON,R1_Personal_Hygiene,begin,0 days 00:05:34
+614,06/03/2009,08:08:35,M47,OFF,R2_Sleep,end,
+615,06/03/2009,08:14:57,M33,ON,R1_Personal_Hygiene,end,
+616,06/03/2009,08:21:30,M44,ON,R2_Bed_to_Toilet,begin,0 days 00:00:04
+617,06/03/2009,08:21:34,M17,ON,Meal_Preparation,begin,0 days 00:02:39
+618,06/03/2009,08:24:13,M27,OFF,R2_Bed_to_Toilet,end,
+619,06/03/2009,08:25:56,M17,OFF,Meal_Preparation,end,
+620,06/03/2009,08:26:04,M17,ON,Meal_Preparation,begin,0 days 00:20:34
+621,06/03/2009,08:46:38,AD1-A,2.79098,Meal_Preparation,end,
+622,06/03/2009,12:35:11,M44,ON,R2_Personal_Hygiene,begin,0 days 00:06:46
+623,06/03/2009,12:41:57,M38,OFF,R2_Personal_Hygiene,end,
+624,06/03/2009,14:25:37,M31,OFF,R1_Work,begin,0 days 01:11:26
+625,06/03/2009,15:37:03,M44,OFF,R2_Work,begin,0 days 00:39:06
+626,06/03/2009,16:16:09,M44,OFF,R2_Work,end,
+627,06/03/2009,16:25:32,M01,ON,Study,begin,0 days 00:39:18
+628,06/03/2009,17:04:50,M09,OFF,Study,end,
+629,06/03/2009,17:06:04,M32,ON,R1_Work,end,
+630,06/03/2009,19:14:44,M19,ON,Meal_Preparation,begin,0 days 01:03:14
+631,06/03/2009,20:17:58,M14,OFF,Meal_Preparation,end,
+632,06/03/2009,22:56:25,M35,ON,R1_Sleep,begin,0 days 00:00:02
+633,06/03/2009,22:56:27,M44,ON,R2_Work,begin,0 days 00:38:27
+634,06/03/2009,23:34:54,M44,OFF,R2_Work,end,
+635,06/03/2009,23:36:05,M48,ON,R2_Sleep,begin,0 days 08:35:32
+636,07/03/2009,08:11:37,M47,OFF,R2_Sleep,end,
+637,07/03/2009,08:11:55,M35,OFF,R1_Sleep,end,
+638,09/03/2009,07:44:55,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:22:23
+639,09/03/2009,08:07:18,M36,ON,R1_Bed_to_Toilet,end,
+640,09/03/2009,08:07:52,M36,ON,R1_Personal_Hygiene,begin,0 days 00:06:13
+641,09/03/2009,08:14:05,M36,ON,R1_Personal_Hygiene,end,
+642,09/03/2009,08:21:01,M17,ON,Meal_Preparation,begin,0 days 00:00:22
+643,09/03/2009,08:21:23,M42,ON,R2_Bed_to_Toilet,begin,0 days 00:01:52
+644,09/03/2009,08:23:15,M37,OFF,R2_Bed_to_Toilet,end,
+645,09/03/2009,08:23:47,M17,ON,Meal_Preparation,end,
+646,09/03/2009,08:23:58,M31,ON,R1_Work,begin,0 days 00:17:49
+647,09/03/2009,08:41:47,M31,OFF,R1_Work,end,
+648,09/03/2009,08:51:57,M42,ON,R2_Bed_to_Toilet,begin,0 days 00:00:39
+649,09/03/2009,08:52:36,M44,ON,R2_Bed_to_Toilet,end,
+650,09/03/2009,08:53:14,M50,ON,R2_Personal_Hygiene,begin,0 days 00:02:29
+651,09/03/2009,08:55:43,M42,ON,R2_Personal_Hygiene,end,
+652,09/03/2009,18:00:02,M17,ON,Meal_Preparation,begin,0 days 03:28:21
+653,09/03/2009,21:28:23,M19,OFF,Meal_Preparation,end,
+654,09/03/2009,21:37:59,M01,ON,Watch_TV,begin,0 days 00:45:00
+655,09/03/2009,22:22:59,M06,OFF,Watch_TV,end,
+656,09/03/2009,22:25:57,M44,OFF,R2_Work,begin,0 days 00:01:00
+657,09/03/2009,22:26:57,M31,ON,R1_Work,begin,0 days 00:48:37
+658,09/03/2009,23:15:34,M32,ON,R1_Work,end,
+659,09/03/2009,23:15:41,M35,ON,R1_Sleep,begin,0 days 00:40:09
+660,09/03/2009,23:55:50,M44,OFF,R2_Work,end,
+661,09/03/2009,23:55:50,M47,ON,R2_Sleep,begin,0 days 07:01:37
+662,10/03/2009,06:57:27,M43,ON,R2_Bed_to_Toilet,begin,0 days 00:02:56
+663,10/03/2009,07:00:23,M44,ON,R2_Bed_to_Toilet,end,
+664,10/03/2009,07:25:22,M47,OFF,R2_Sleep,end,
+665,10/03/2009,07:25:35,M43,ON,R2_Personal_Hygiene,begin,0 days 00:27:18
+666,10/03/2009,07:52:53,M35,OFF,R1_Sleep,end,
+667,10/03/2009,08:04:18,M44,ON,R2_Personal_Hygiene,end,
+668,10/03/2009,08:08:41,M17,ON,Meal_Preparation,begin,0 days 00:39:19
+669,10/03/2009,08:48:00,M14,OFF,Meal_Preparation,end,
+670,10/03/2009,08:48:06,M30,ON,R1_Personal_Hygiene,begin,0 days 00:41:28
+671,10/03/2009,09:29:34,M36,ON,R1_Personal_Hygiene,end,
+672,10/03/2009,09:37:27,M17,ON,Meal_Preparation,begin,0 days 00:20:12
+673,10/03/2009,09:57:39,AD1-A,2.80301,Meal_Preparation,end,
+674,10/03/2009,12:17:22,M15,ON,Meal_Preparation,begin,0 days 00:13:31
+675,10/03/2009,12:30:53,M08,ON,Watch_TV,begin,0 days 00:29:21
+676,10/03/2009,13:00:14,M18,OFF,Meal_Preparation,end,
+677,10/03/2009,13:00:53,M01,OFF,Watch_TV,end,
+678,10/03/2009,18:02:45,M16,ON,Meal_Preparation,begin,0 days 01:38:12
+679,10/03/2009,19:40:57,M21,ON,Meal_Preparation,end,
+680,10/03/2009,19:41:14,M08,ON,Study,begin,0 days 00:00:26
+681,10/03/2009,19:41:40,M32,ON,R1_Work,begin,0 days 02:35:55
+682,10/03/2009,22:17:35,M32,OFF,R1_Work,end,
+683,10/03/2009,22:21:49,M34,OFF,R1_Sleep,begin,0 days 00:19:27
+684,10/03/2009,22:41:16,M10,OFF,Study,end,
+685,10/03/2009,23:07:16,M47,ON,R2_Sleep,begin,0 days 08:39:28
+686,11/03/2009,07:46:44,M35,ON,R1_Sleep,end,
+687,11/03/2009,07:47:26,M36,ON,R1_Personal_Hygiene,begin,0 days 00:23:00
+688,11/03/2009,08:10:26,M29,OFF,R1_Personal_Hygiene,end,
+689,11/03/2009,08:10:36,M37,ON,R1_Personal_Hygiene,begin,0 days 00:03:42
+690,11/03/2009,08:14:18,M29,OFF,R1_Personal_Hygiene,end,
+691,11/03/2009,08:18:19,M29,ON,R1_Bed_to_Toilet,begin,0 days 00:01:08
+692,11/03/2009,08:19:27,M38,OFF,R1_Bed_to_Toilet,end,
+693,11/03/2009,08:20:14,M21,ON,Meal_Preparation,begin,0 days 00:11:08
+694,11/03/2009,08:31:22,M48,OFF,R2_Sleep,end,
+695,11/03/2009,08:31:23,M43,ON,R2_Bed_to_Toilet,begin,0 days 00:00:44
+696,11/03/2009,08:32:07,M21,OFF,Meal_Preparation,end,
+697,11/03/2009,08:33:09,M28,ON,R2_Bed_to_Toilet,end,
+698,11/03/2009,09:09:19,M29,ON,R2_Personal_Hygiene,begin,0 days 00:43:21
+699,11/03/2009,09:52:40,M42,ON,R2_Personal_Hygiene,end,
+700,11/03/2009,09:54:51,M17,ON,Meal_Preparation,begin,0 days 00:50:48
+701,11/03/2009,10:45:39,M15,OFF,Meal_Preparation,end,
+702,11/03/2009,11:06:55,M16,ON,Meal_Preparation,begin,0 days 00:33:11
+703,11/03/2009,11:40:06,AD1-A,2.79934,Meal_Preparation,end,
+704,11/03/2009,18:21:07,M32,ON,R1_Work,begin,0 days 00:16:31
+705,11/03/2009,18:37:38,M07,ON,Watch_TV,begin,0 days 00:33:39
+706,11/03/2009,19:11:17,M23,OFF,Watch_TV,end,
+707,11/03/2009,19:39:57,M14,ON,Study,begin,0 days 02:27:58
+708,11/03/2009,22:07:55,M31,OFF,R1_Work,end,
+709,11/03/2009,22:09:45,M08,OFF,Study,end,
+710,11/03/2009,22:10:04,M44,ON,R2_Work,begin,0 days 00:01:41
+711,11/03/2009,22:11:45,M35,ON,R1_Sleep,begin,0 days 00:09:16
+712,11/03/2009,22:21:01,M45,OFF,R2_Work,end,
+713,11/03/2009,22:21:10,M47,ON,R2_Sleep,begin,0 days 08:28:51
+714,12/03/2009,06:50:01,M34,OFF,R1_Sleep,end,
+715,12/03/2009,06:50:47,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:10:36
+716,12/03/2009,07:01:23,M48,OFF,R2_Sleep,end,
+717,12/03/2009,07:11:43,M29,OFF,R1_Bed_to_Toilet,end,
+718,12/03/2009,07:12:28,M43,ON,R2_Bed_to_Toilet,begin,0 days 00:00:12
+719,12/03/2009,07:12:40,M21,ON,Meal_Preparation,begin,0 days 00:03:20
+720,12/03/2009,07:16:00,M21,OFF,Meal_Preparation,end,
+721,12/03/2009,07:16:11,M44,ON,R2_Bed_to_Toilet,end,
+722,12/03/2009,07:16:16,M38,ON,R1_Personal_Hygiene,begin,0 days 00:08:17
+723,12/03/2009,07:24:33,M38,OFF,R1_Personal_Hygiene,end,
+724,12/03/2009,07:24:45,M42,ON,R2_Personal_Hygiene,begin,0 days 00:02:26
+725,12/03/2009,07:27:11,M37,OFF,R2_Personal_Hygiene,end,
+726,12/03/2009,07:27:14,M32,OFF,R1_Work,begin,0 days 00:00:06
+727,12/03/2009,07:27:20,M21,ON,Meal_Preparation,begin,0 days 00:04:58
+728,12/03/2009,07:32:18,M31,OFF,R1_Work,end,
+729,12/03/2009,07:34:04,M16,OFF,Meal_Preparation,end,
+730,12/03/2009,08:03:53,M44,ON,R2_Personal_Hygiene,begin,0 days 00:51:20
+731,12/03/2009,08:55:13,M42,OFF,R2_Personal_Hygiene,end,
+732,12/03/2009,08:57:42,M08,ON,Watch_TV,begin,0 days 00:23:11
+733,12/03/2009,09:20:53,M32,ON,R1_Work,begin,0 days 00:46:39
+734,12/03/2009,10:07:32,M32,OFF,R1_Work,end,
+735,12/03/2009,10:53:41,M08,OFF,Watch_TV,end,
+736,12/03/2009,11:07:12,M21,ON,Meal_Preparation,begin,0 days 01:17:05
+737,12/03/2009,12:24:17,M15,OFF,Meal_Preparation,end,
+738,12/03/2009,17:31:15,M31,ON,R1_Work,begin,0 days 04:47:02
+739,12/03/2009,22:18:17,M31,ON,R1_Work,end,
+740,12/03/2009,22:22:37,M35,ON,R1_Sleep,begin,0 days 00:13:51
+741,12/03/2009,22:36:28,M44,OFF,R2_Work,begin,0 days 00:54:58
+742,12/03/2009,23:31:26,M45,OFF,R2_Work,end,
+743,12/03/2009,23:31:26,M47,ON,R2_Sleep,begin,0 days 06:30:44
+744,13/03/2009,06:02:10,M35,ON,R1_Sleep,end,
+745,13/03/2009,06:05:54,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:17:39
+746,13/03/2009,06:23:33,M30,OFF,R1_Bed_to_Toilet,end,
+747,13/03/2009,06:23:48,M30,ON,R1_Personal_Hygiene,begin,0 days 00:07:38
+748,13/03/2009,06:31:26,M32,ON,R1_Personal_Hygiene,end,
+749,13/03/2009,06:34:29,M36,OFF,R1_Personal_Hygiene,begin,0 days 00:01:32
+750,13/03/2009,06:36:01,M36,OFF,R1_Personal_Hygiene,end,
+751,13/03/2009,06:36:39,M21,ON,Meal_Preparation,begin,0 days 00:19:27
+752,13/03/2009,06:56:06,M21,OFF,Meal_Preparation,end,
+753,13/03/2009,07:32:43,M37,ON,R1_Personal_Hygiene,begin,0 days 00:07:52
+754,13/03/2009,07:40:35,M37,OFF,R1_Personal_Hygiene,end,
+755,13/03/2009,07:40:37,M31,ON,R1_Work,begin,0 days 00:16:44
+756,13/03/2009,07:57:21,M47,OFF,R2_Sleep,end,
+757,13/03/2009,07:59:54,M31,OFF,R1_Work,end,
+758,23/03/2009,06:57:38,M44,ON,R2_Bed_to_Toilet,begin,0 days 00:01:52
+759,23/03/2009,06:59:30,M37,OFF,R2_Bed_to_Toilet,end,
+760,23/03/2009,07:00:25,M17,ON,Meal_Preparation,begin,0 days 00:56:27
+761,23/03/2009,07:56:52,M17,OFF,Meal_Preparation,end,
+762,23/03/2009,09:12:59,M23,ON,R1_Bed_to_Toilet,begin,0 days 00:01:56
+763,23/03/2009,09:14:55,M36,ON,R1_Bed_to_Toilet,end,
+764,23/03/2009,09:15:17,M31,ON,R1_Work,begin,0 days 00:27:04
+765,23/03/2009,09:42:21,M31,OFF,R1_Work,end,
+766,23/03/2009,09:43:32,M45,ON,R2_Work,begin,0 days 00:00:39
+767,23/03/2009,09:44:11,M38,ON,R1_Personal_Hygiene,begin,0 days 00:10:03
+768,23/03/2009,09:54:14,M39,OFF,R1_Personal_Hygiene,end,
+769,23/03/2009,09:55:09,M16,ON,Meal_Preparation,begin,0 days 00:14:39
+770,23/03/2009,10:09:48,M21,OFF,Meal_Preparation,end,
+771,23/03/2009,10:21:29,M31,ON,R1_Work,begin,0 days 00:29:09
+772,23/03/2009,10:50:38,M44,OFF,R2_Work,end,
+773,23/03/2009,10:51:18,M31,OFF,R1_Work,end,
+774,23/03/2009,14:24:33,M32,ON,R1_Work,begin,0 days 02:46:31
+775,23/03/2009,17:11:04,M32,OFF,R1_Work,end,
+776,23/03/2009,18:56:29,M43,ON,R2_Personal_Hygiene,begin,0 days 00:06:15
+777,23/03/2009,19:02:44,M42,ON,R2_Personal_Hygiene,end,
+778,23/03/2009,19:19:08,M02,ON,Watch_TV,begin,0 days 01:05:41
+779,23/03/2009,20:24:49,M05,OFF,Watch_TV,end,
+780,23/03/2009,20:35:02,M14,ON,Study,begin,0 days 00:56:01
+781,23/03/2009,21:31:03,M36,OFF,R1_Personal_Hygiene,begin,0 days 00:10:15
+782,23/03/2009,21:41:18,M30,ON,R1_Personal_Hygiene,end,
+783,23/03/2009,21:42:36,M34,ON,R1_Sleep,begin,0 days 00:40:29
+784,23/03/2009,22:23:05,M13,OFF,Study,end,
+785,23/03/2009,22:23:08,M15,ON,Meal_Preparation,begin,0 days 00:06:00
+786,23/03/2009,22:29:08,M19,OFF,Meal_Preparation,end,
+787,23/03/2009,22:29:33,M47,ON,R2_Sleep,begin,0 days 06:55:56
+788,24/03/2009,05:25:29,M44,ON,R2_Bed_to_Toilet,begin,0 days 00:01:38
+789,24/03/2009,05:27:07,M29,OFF,R2_Bed_to_Toilet,end,
+790,24/03/2009,06:59:58,M48,OFF,R2_Sleep,end,
+791,24/03/2009,07:12:09,M43,OFF,R2_Personal_Hygiene,begin,0 days 00:47:56
+792,24/03/2009,08:00:05,M44,OFF,R2_Personal_Hygiene,end,
+793,24/03/2009,08:00:09,M45,ON,R2_Work,begin,0 days 00:15:38
+794,24/03/2009,08:15:47,M44,ON,R2_Work,end,
+795,24/03/2009,08:16:04,M17,ON,Meal_Preparation,begin,0 days 00:03:39
+796,24/03/2009,08:19:43,M35,OFF,R1_Sleep,end,
+797,24/03/2009,08:24:15,M08,OFF,Study,begin,0 days 00:12:29
+798,24/03/2009,08:36:44,M13,OFF,Study,end,
+799,24/03/2009,08:53:02,M21,ON,Meal_Preparation,end,
+800,24/03/2009,09:01:01,M31,OFF,R1_Work,begin,0 days 00:09:12
+801,24/03/2009,09:10:13,M32,ON,R1_Work,end,
+802,24/03/2009,09:10:19,M30,ON,R1_Personal_Hygiene,begin,0 days 00:16:24
+803,24/03/2009,09:26:43,M30,OFF,R1_Personal_Hygiene,end,
+804,24/03/2009,09:33:30,M17,ON,Meal_Preparation,begin,0 days 00:21:01
+805,24/03/2009,09:54:31,M15,OFF,Meal_Preparation,end,
+806,24/03/2009,12:46:08,M17,ON,Meal_Preparation,begin,0 days 00:16:45
+807,24/03/2009,13:02:53,M15,OFF,Meal_Preparation,end,
+808,24/03/2009,16:28:44,M21,ON,Meal_Preparation,begin,0 days 00:47:13
+809,24/03/2009,17:15:57,M16,OFF,Meal_Preparation,end,
+810,24/03/2009,18:42:28,M45,ON,R2_Work,begin,0 days 00:33:20
+811,24/03/2009,19:15:48,M44,OFF,R2_Work,end,
+812,24/03/2009,22:12:11,M35,ON,R1_Sleep,begin,0 days 00:48:58
+813,24/03/2009,23:01:09,M44,ON,R2_Work,begin,0 days 00:50:30
+814,24/03/2009,23:51:39,M45,ON,R2_Work,end,
+815,24/03/2009,23:51:52,M47,ON,R2_Sleep,begin,0 days 02:27:25
+816,25/03/2009,02:19:17,M43,ON,R2_Bed_to_Toilet,begin,0 days 00:01:40
+817,25/03/2009,02:20:57,M42,ON,R2_Bed_to_Toilet,end,
+818,25/03/2009,07:36:40,M35,OFF,R1_Sleep,end,
+819,25/03/2009,07:41:04,M37,ON,R1_Bed_to_Toilet,begin,0 days 00:22:16
+820,25/03/2009,08:03:20,M47,OFF,R2_Sleep,end,
+821,25/03/2009,08:04:23,M30,OFF,R1_Bed_to_Toilet,end,
+822,25/03/2009,08:06:22,M30,ON,R1_Personal_Hygiene,begin,0 days 00:29:03
+823,25/03/2009,08:35:25,M32,ON,R1_Personal_Hygiene,end,
+824,25/03/2009,08:46:49,M21,ON,Meal_Preparation,begin,0 days 00:04:23
+825,25/03/2009,08:51:12,M21,OFF,Meal_Preparation,end,
+826,25/03/2009,09:19:26,M42,ON,R2_Bed_to_Toilet,begin,0 days 00:01:50
+827,25/03/2009,09:21:16,M42,ON,R2_Bed_to_Toilet,end,
+828,25/03/2009,09:21:53,M17,ON,Meal_Preparation,begin,0 days 00:20:10
+829,25/03/2009,09:42:03,M14,OFF,Meal_Preparation,end,
+830,25/03/2009,09:52:46,M50,ON,R2_Personal_Hygiene,begin,0 days 00:33:38
+831,25/03/2009,10:26:24,M50,ON,R2_Personal_Hygiene,end,
+832,25/03/2009,11:02:34,M19,ON,Meal_Preparation,begin,0 days 00:22:02
+833,25/03/2009,11:24:36,M18,OFF,Meal_Preparation,end,
+834,25/03/2009,11:26:18,M13,ON,Study,begin,0 days 00:55:01
+835,25/03/2009,12:21:19,M15,ON,Meal_Preparation,begin,0 days 00:10:47
+836,25/03/2009,12:32:06,AD1-A,2.79004,Meal_Preparation,end,
+837,25/03/2009,12:32:29,M30,ON,R1_Personal_Hygiene,begin,0 days 00:10:33
+838,25/03/2009,12:43:02,M13,OFF,Study,end,
+839,25/03/2009,12:43:05,M36,ON,R1_Personal_Hygiene,end,
+840,25/03/2009,16:00:00,AD1-A,3.05294,Meal_Preparation,begin,0 days 00:34:40
+841,25/03/2009,16:34:40,M06,ON,Watch_TV,begin,0 days 00:58:43
+842,25/03/2009,17:33:23,M15,OFF,Meal_Preparation,end,
+843,25/03/2009,19:39:57,M06,ON,Watch_TV,end,
+844,25/03/2009,20:40:28,M19,ON,Meal_Preparation,begin,0 days 00:35:04
+845,25/03/2009,21:15:32,M15,OFF,Meal_Preparation,end,
+846,25/03/2009,21:45:28,M35,ON,R1_Sleep,begin,0 days 01:21:55
+847,25/03/2009,23:07:23,M45,ON,R2_Work,begin,0 days 00:22:54
+848,25/03/2009,23:30:17,M44,ON,R2_Work,end,
+849,25/03/2009,23:30:27,M47,ON,R2_Sleep,begin,0 days 03:05:38
+850,26/03/2009,02:36:05,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:01:29
+851,26/03/2009,02:37:34,M30,ON,R1_Bed_to_Toilet,end,
+852,26/03/2009,06:12:47,M50,ON,R2_Bed_to_Toilet,begin,0 days 00:01:39
+853,26/03/2009,06:14:26,M29,OFF,R2_Bed_to_Toilet,end,
+854,26/03/2009,06:57:41,M47,OFF,R2_Sleep,end,
+855,26/03/2009,06:57:49,M50,ON,R2_Personal_Hygiene,begin,0 days 00:38:01
+856,26/03/2009,07:35:50,M35,OFF,R1_Sleep,end,
+857,26/03/2009,07:36:02,M42,OFF,R2_Personal_Hygiene,end,
+858,26/03/2009,07:36:07,M37,ON,R1_Personal_Hygiene,begin,0 days 00:02:56
+859,26/03/2009,07:39:03,M29,OFF,R1_Personal_Hygiene,end,
+860,26/03/2009,08:00:04,M19,ON,Meal_Preparation,begin,0 days 00:50:47
+861,26/03/2009,08:50:51,M14,OFF,Meal_Preparation,end,
+862,26/03/2009,09:10:54,M28,ON,R1_Personal_Hygiene,begin,0 days 00:22:57
+863,26/03/2009,09:33:51,M30,ON,R1_Personal_Hygiene,end,
+864,26/03/2009,12:04:23,M06,ON,Watch_TV,begin,0 days 01:49:33
+865,26/03/2009,13:53:56,AD1-A,2.82879,Meal_Preparation,begin,0 days 00:45:14
+866,26/03/2009,14:39:10,M16,OFF,Meal_Preparation,end,
+867,26/03/2009,15:42:50,M06,OFF,Watch_TV,end,
+868,26/03/2009,17:47:24,AD1-B,0.242777,Meal_Preparation,begin,0 days 00:33:57
+869,26/03/2009,18:21:21,M15,OFF,Meal_Preparation,end,
+870,26/03/2009,20:25:15,M15,ON,Meal_Preparation,begin,0 days 00:14:26
+871,26/03/2009,20:39:41,AD1-A,2.81793,Meal_Preparation,end,
+872,26/03/2009,20:41:31,M44,ON,R2_Work,begin,0 days 00:02:27
+873,26/03/2009,20:43:58,M32,ON,R1_Work,begin,0 days 01:42:04
+874,26/03/2009,22:26:02,M35,ON,R1_Sleep,begin,0 days 00:42:32
+875,26/03/2009,23:08:34,M31,OFF,R1_Work,end,
+876,26/03/2009,23:10:36,M45,OFF,R2_Work,end,
+877,26/03/2009,23:11:07,M48,ON,R2_Sleep,begin,0 days 02:09:15
+878,27/03/2009,01:20:22,M50,ON,R2_Bed_to_Toilet,begin,0 days 00:02:11
+879,27/03/2009,01:22:33,M50,ON,R2_Bed_to_Toilet,end,
+880,27/03/2009,04:46:41,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:01:23
+881,27/03/2009,04:48:04,M36,ON,R1_Bed_to_Toilet,end,
+882,27/03/2009,06:52:46,M42,ON,R2_Bed_to_Toilet,begin,0 days 00:01:21
+883,27/03/2009,06:54:07,M29,OFF,R2_Bed_to_Toilet,end,
+884,27/03/2009,07:17:13,M48,OFF,R2_Sleep,end,
+885,27/03/2009,07:17:16,M43,ON,R2_Bed_to_Toilet,begin,0 days 00:06:11
+886,27/03/2009,07:23:27,M50,OFF,R2_Bed_to_Toilet,end,
+887,27/03/2009,07:23:37,M45,ON,R2_Work,begin,0 days 00:19:25
+888,27/03/2009,07:43:02,M45,OFF,R2_Work,end,
+889,27/03/2009,07:46:49,M35,OFF,R1_Sleep,end,
+890,27/03/2009,07:47:30,M29,ON,R1_Personal_Hygiene,begin,0 days 00:32:59
+891,27/03/2009,08:20:29,M38,OFF,R1_Personal_Hygiene,end,
+892,27/03/2009,08:25:56,M21,ON,Meal_Preparation,begin,0 days 00:18:18
+893,27/03/2009,08:44:14,M15,OFF,Meal_Preparation,end,
+894,27/03/2009,12:05:51,M15,ON,Meal_Preparation,begin,0 days 00:15:21
+895,27/03/2009,12:21:12,M16,OFF,Meal_Preparation,end,
+896,27/03/2009,17:46:35,M07,ON,Watch_TV,begin,0 days 00:45:57
+897,27/03/2009,18:32:32,M16,ON,Meal_Preparation,begin,0 days 00:10:01
+898,27/03/2009,18:42:33,M19,OFF,Meal_Preparation,end,
+899,27/03/2009,20:05:35,I03,PRESENT,Watch_TV,end,
+900,27/03/2009,20:07:17,M32,OFF,R1_Work,begin,0 days 05:26:47
+901,28/03/2009,01:34:04,M31,OFF,R1_Work,end,
+902,28/03/2009,01:34:06,M34,ON,R1_Sleep,begin,0 days 01:17:42
+903,28/03/2009,02:51:48,M47,ON,R2_Sleep,begin,0 days 06:39:55
+904,28/03/2009,09:31:43,M34,OFF,R1_Sleep,end,
+905,28/03/2009,09:34:48,M48,OFF,R2_Sleep,end,
+906,30/03/2009,16:08:19,M32,OFF,R1_Work,begin,0 days 00:47:41
+907,30/03/2009,16:56:00,M16,ON,Meal_Preparation,begin,0 days 01:07:00
+908,30/03/2009,18:03:00,M31,OFF,R1_Work,end,
+909,30/03/2009,18:13:57,M31,OFF,R1_Work,begin,0 days 00:19:23
+910,30/03/2009,18:33:20,M31,OFF,R1_Work,end,
+911,30/03/2009,18:42:07,AD1-A,2.79793,Meal_Preparation,end,
+912,30/03/2009,19:39:25,M21,ON,Meal_Preparation,begin,0 days 00:16:29
+913,30/03/2009,19:55:54,M15,OFF,Meal_Preparation,end,
+914,30/03/2009,22:09:08,M34,OFF,R1_Sleep,begin,0 days 00:58:39
+915,30/03/2009,23:07:47,M44,ON,R2_Work,begin,0 days 00:08:27
+916,30/03/2009,23:16:14,M44,ON,R2_Work,end,
+917,30/03/2009,23:16:18,M48,ON,R2_Sleep,begin,0 days 03:30:04
+918,31/03/2009,02:46:22,M29,ON,R2_Bed_to_Toilet,begin,0 days 00:01:46
+919,31/03/2009,02:48:08,M42,OFF,R2_Bed_to_Toilet,end,
+920,31/03/2009,07:00:34,M50,ON,R2_Personal_Hygiene,begin,0 days 00:01:52
+921,31/03/2009,07:02:26,M42,OFF,R2_Personal_Hygiene,end,
+922,31/03/2009,07:24:43,M50,ON,R2_Personal_Hygiene,begin,0 days 00:01:18
+923,31/03/2009,07:26:01,M48,OFF,R2_Sleep,end,
+924,31/03/2009,08:03:34,M34,OFF,R1_Sleep,end,
+925,31/03/2009,08:06:41,M42,ON,R2_Personal_Hygiene,end,
+926,31/03/2009,08:07:13,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:02:00
+927,31/03/2009,08:09:13,M36,ON,R1_Bed_to_Toilet,end,
+928,31/03/2009,08:11:30,M19,ON,Meal_Preparation,begin,0 days 00:30:59
+929,31/03/2009,08:42:29,M31,ON,Meal_Preparation,end,
+930,31/03/2009,08:54:38,M36,ON,R1_Personal_Hygiene,begin,0 days 00:33:37
+931,31/03/2009,09:28:15,M32,ON,R1_Personal_Hygiene,end,
+932,31/03/2009,20:55:00,M21,ON,Meal_Preparation,begin,0 days 00:09:08
+933,31/03/2009,21:04:08,M32,ON,R1_Work,begin,0 days 01:01:22
+934,31/03/2009,22:05:30,M21,OFF,Meal_Preparation,end,
+935,31/03/2009,22:05:40,M44,ON,R2_Work,begin,0 days 00:35:22
+936,31/03/2009,22:41:02,M31,OFF,R1_Work,end,
+937,31/03/2009,22:42:04,M44,OFF,R2_Work,end,
+938,31/03/2009,22:42:22,M34,ON,R1_Sleep,begin,0 days 00:01:11
+939,31/03/2009,22:43:33,M48,ON,R2_Sleep,begin,0 days 07:58:14
+940,01/04/2009,06:41:47,M50,ON,R2_Bed_to_Toilet,begin,0 days 00:02:04
+941,01/04/2009,06:43:51,M29,OFF,R2_Bed_to_Toilet,end,
+942,01/04/2009,07:46:36,M35,OFF,R1_Sleep,end,
+943,01/04/2009,07:47:47,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:13:24
+944,01/04/2009,08:01:11,M48,OFF,R2_Sleep,end,
+945,01/04/2009,08:11:53,M37,OFF,R1_Bed_to_Toilet,end,
+946,01/04/2009,08:12:18,M30,ON,R1_Personal_Hygiene,begin,0 days 00:08:08
+947,01/04/2009,08:20:26,M36,ON,R1_Personal_Hygiene,end,
+948,01/04/2009,08:38:24,M50,ON,R2_Personal_Hygiene,begin,0 days 00:37:57
+949,01/04/2009,09:16:21,M50,ON,R2_Personal_Hygiene,end,
+950,01/04/2009,09:19:02,M06,ON,Watch_TV,begin,0 days 00:28:10
+951,01/04/2009,09:47:12,M02,OFF,Watch_TV,end,
+952,01/04/2009,10:47:29,M16,ON,Meal_Preparation,begin,0 days 00:14:49
+953,01/04/2009,11:02:18,M16,ON,Meal_Preparation,end,
+954,01/04/2009,12:38:50,M17,ON,Meal_Preparation,begin,0 days 00:26:41
+955,01/04/2009,13:05:31,M21,OFF,Meal_Preparation,end,
+956,01/04/2009,13:33:59,M45,ON,R2_Work,begin,0 days 01:55:34
+957,01/04/2009,15:29:33,M44,OFF,R2_Work,end,
+958,01/04/2009,21:35:11,M48,ON,R2_Sleep,begin,0 days 00:23:21
+959,01/04/2009,21:58:32,M35,ON,R1_Sleep,begin,0 days 08:59:27
+960,02/04/2009,06:57:59,M50,ON,R2_Bed_to_Toilet,begin,0 days 00:01:43
+961,02/04/2009,06:59:42,M50,ON,R2_Bed_to_Toilet,end,
+962,02/04/2009,07:19:53,M47,OFF,R2_Sleep,end,
+963,02/04/2009,07:20:14,M50,ON,R2_Personal_Hygiene,begin,0 days 00:35:19
+964,02/04/2009,07:55:33,M35,OFF,R1_Sleep,end,
+965,02/04/2009,07:56:13,M38,OFF,R2_Personal_Hygiene,end,
+966,02/04/2009,07:56:19,M17,ON,Meal_Preparation,begin,0 days 00:00:00
+967,02/04/2009,07:56:19,M45,ON,R2_Work,begin,0 days 00:02:24
+968,02/04/2009,07:58:43,M17,OFF,Meal_Preparation,end,
+969,02/04/2009,08:01:06,M32,ON,R1_Work,begin,0 days 00:00:51
+970,02/04/2009,08:01:57,M31,OFF,R1_Work,end,
+971,02/04/2009,08:12:26,M44,OFF,R2_Work,end,
+972,02/04/2009,08:13:03,M17,OFF,Meal_Preparation,begin,0 days 00:00:00
+973,02/04/2009,08:13:03,M17,OFF,Meal_Preparation,end,
+974,02/04/2009,08:51:59,M41,ON,R1_Personal_Hygiene,begin,0 days 00:36:30
+975,02/04/2009,09:28:29,M36,OFF,R1_Personal_Hygiene,end,
+976,02/04/2009,11:47:16,M02,ON,Watch_TV,begin,0 days 00:00:08
+977,02/04/2009,11:47:24,M15,ON,Meal_Preparation,begin,0 days 01:04:40
+978,02/04/2009,12:52:04,M18,OFF,Meal_Preparation,end,
+979,02/04/2009,13:04:07,M08,OFF,Watch_TV,end,
+980,02/04/2009,17:51:12,M32,ON,R1_Work,begin,0 days 02:07:56
+981,02/04/2009,19:59:08,M31,OFF,R1_Work,end,
+982,02/04/2009,20:01:52,M48,ON,R2_Sleep,begin,0 days 02:36:17
+983,02/04/2009,22:38:09,M35,ON,R1_Sleep,begin,0 days 05:23:32
+984,03/04/2009,04:01:41,M36,ON,R1_Bed_to_Toilet,begin,0 days 00:21:40
+985,03/04/2009,04:23:21,M36,OFF,R1_Bed_to_Toilet,end,
+986,03/04/2009,04:25:31,M35,OFF,R1_Sleep,end,
+987,03/04/2009,04:25:32,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:02:09
+988,03/04/2009,04:27:41,M32,ON,R1_Bed_to_Toilet,end,
+989,03/04/2009,05:02:13,M29,ON,R1_Bed_to_Toilet,begin,0 days 00:04:03
+990,03/04/2009,05:06:16,M30,ON,R1_Bed_to_Toilet,end,
+991,03/04/2009,05:51:07,M30,ON,R1_Bed_to_Toilet,begin,0 days 00:02:27
+992,03/04/2009,05:53:34,M36,ON,R1_Bed_to_Toilet,end,
+993,03/04/2009,06:01:55,M30,ON,R1_Personal_Hygiene,begin,0 days 00:02:27
+994,03/04/2009,06:04:22,M32,ON,R1_Personal_Hygiene,end,
+995,03/04/2009,07:52:38,M48,OFF,R2_Sleep,end,
+996,03/04/2009,07:55:15,M50,ON,R2_Bed_to_Toilet,begin,0 days 00:02:44
+997,03/04/2009,07:57:59,M50,ON,R2_Bed_to_Toilet,end,
+998,03/04/2009,08:02:15,M50,ON,R2_Personal_Hygiene,begin,0 days 00:05:41
+999,03/04/2009,08:07:56,M50,ON,R2_Personal_Hygiene,end,
+1000,03/04/2009,08:07:58,M45,ON,R2_Work,begin,0 days 00:06:33
+1001,03/04/2009,08:14:31,M18,ON,Meal_Preparation,begin,0 days 00:35:15
+1002,03/04/2009,08:49:46,M21,OFF,Meal_Preparation,end,
+1003,03/04/2009,09:18:26,M44,OFF,R2_Work,end,
+1004,03/04/2009,09:18:38,M19,ON,Meal_Preparation,begin,0 days 00:10:17
+1005,03/04/2009,09:28:55,M15,ON,Meal_Preparation,end,
+1006,03/04/2009,10:04:25,M50,ON,R2_Personal_Hygiene,begin,0 days 00:40:29
+1007,03/04/2009,10:44:54,M43,ON,R2_Personal_Hygiene,end,
+1008,03/04/2009,10:58:52,M07,ON,Watch_TV,begin,0 days 00:28:15
+1009,03/04/2009,11:27:07,M02,OFF,Watch_TV,end,
+1010,03/04/2009,11:27:40,M50,ON,R2_Personal_Hygiene,begin,0 days 00:09:31
+1011,03/04/2009,11:37:11,M42,ON,R2_Personal_Hygiene,end,
+1012,03/04/2009,12:20:04,M04,ON,Watch_TV,begin,0 days 00:00:13
+1013,03/04/2009,12:20:17,M15,ON,Meal_Preparation,begin,0 days 00:12:07
+1014,03/04/2009,12:32:24,M08,OFF,Watch_TV,end,
+1015,03/04/2009,12:34:10,M21,OFF,Meal_Preparation,end,
+1016,03/04/2009,13:42:09,M21,OFF,Meal_Preparation,begin,0 days 00:36:57
+1017,03/04/2009,14:19:06,AD1-B,0.0326958,Meal_Preparation,end,
+1018,03/04/2009,17:51:49,M17,OFF,Meal_Preparation,begin,0 days 00:22:42
+1019,03/04/2009,18:14:31,AD1-A,2.80684,Meal_Preparation,end,
+1020,03/04/2009,19:33:45,M32,OFF,R1_Work,begin,0 days 01:07:08
+1021,03/04/2009,20:40:53,M32,OFF,R1_Work,end,
+1022,03/04/2009,23:47:31,M35,OFF,R1_Sleep,begin,0 days 00:13:18
+1023,04/04/2009,00:00:49,M48,ON,R2_Sleep,begin,0 days 07:07:57
+1024,04/04/2009,07:08:46,M35,OFF,R1_Sleep,end,
+1025,04/04/2009,07:28:01,M48,OFF,R2_Sleep,end,

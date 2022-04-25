@@ -17,8 +17,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
 data = pd.read_csv('train_adjust.csv')
-#print(data.head())
-
 le = preprocessing.LabelEncoder()
 event = le.fit_transform(list(data['event']))
 M35 = le.fit_transform(list(data['M35']))
@@ -107,10 +105,8 @@ random_state = np.random.RandomState(0)
 n_samples, n_features = X.shape
 
 x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.5, random_state=0)
-#print(x_train, y_test)
-#记得改模型
 classifier = OneVsRestClassifier(LogisticRegression(penalty='l2', random_state=0))
-#OneVsRestClassifier(svm.SVC(kernel='linear', probability=True)或者 RandomForestClassifier(max_depth=7, n_estimators=100)或者 KNeighborsClassifier(n_neighbors=7))
+#OneVsRestClassifier(svm.SVC(kernel='linear', probability=True)or RandomForestClassifier(max_depth=7, n_estimators=100)or KNeighborsClassifier(n_neighbors=7))
 y_score = classifier.fit(x_train,y_train).predict_proba(x_test)
 
 #calculate ROC of each class
@@ -144,7 +140,6 @@ plt.xlim([0.0, 1.0])
 plt.ylim([0.0, 1.05])
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
-#记得改标题
 plt.title('LR Method of ROC to multi-class')
 plt.legend(loc='lower right')
 plt.show()
